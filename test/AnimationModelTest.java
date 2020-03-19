@@ -1,3 +1,5 @@
+import cs3500.animator.model.DifferentShapes;
+import cs3500.animator.model.Shape;
 import org.junit.Test;
 
 import java.awt.Color;
@@ -7,9 +9,7 @@ import java.util.List;
 import cs3500.animator.model.AnimationModel;
 import cs3500.animator.model.AnimationOperation;
 import cs3500.animator.model.IShape;
-import cs3500.animator.model.Oval;
 import cs3500.animator.model.Position2D;
-import cs3500.animator.model.Rectangle;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -536,28 +536,35 @@ public class AnimationModelTest {
 
   @Test
   public void testShapeGetName() {
-    IShape r = new Rectangle(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R");
+    IShape r = new Shape(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R",
+        DifferentShapes.rectangle);
     assertEquals("rectangle", r.getShapeName());
   }
 
   @Test
   public void testShapesHashCode() {
-    IShape r1 = new Rectangle(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R1");
-    IShape r2 = new Rectangle(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R2");
-    assertTrue(r1.hashCode() == r2.hashCode());
+    IShape r1 = new Shape(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R1",
+        DifferentShapes.rectangle);
+    IShape r2 = new Shape(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R2",
+        DifferentShapes.rectangle);
+    assertFalse(r1.hashCode() == r2.hashCode());
   }
 
   @Test
   public void testShapesEqual() {
-    IShape r1 = new Rectangle(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R");
-    IShape r2 = new Rectangle(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R");
+    IShape r1 = new Shape(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R",
+        DifferentShapes.rectangle);
+    IShape r2 = new Shape(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R",
+        DifferentShapes.rectangle);
     assertTrue(r1.equals(r2));
   }
 
   @Test
   public void testShapesNotEqual() {
-    IShape r1 = new Rectangle(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R1");
-    IShape r2 = new Rectangle(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R2");
+    IShape r1 = new Shape(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R1",
+        DifferentShapes.rectangle);
+    IShape r2 = new Shape(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R2",
+        DifferentShapes.rectangle);
     assertFalse(r1.equals(r2));
   }
 
@@ -577,7 +584,8 @@ public class AnimationModelTest {
             10, 10, 20, 20, 100, 100, 100);
     List<IShape> currentShape = new ArrayList<>();
     currentShape.add(
-            new Rectangle(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R"));
+            new Shape(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "R",
+                DifferentShapes.rectangle));
     assertEquals(currentShape.get(0), animationOne.getAnimation(1).get(0));
   }
 
@@ -597,7 +605,8 @@ public class AnimationModelTest {
             10, 10, 20, 20, 100, 100, 100);
     List<IShape> currentShape = new ArrayList<>();
     currentShape.add(
-            new Rectangle(new Color(50, 50, 50), new Position2D(5, 5), 15.0, 15.0, "R"));
+            new Shape(new Color(50, 50, 50), new Position2D(5, 5), 15.0, 15.0, "R",
+                DifferentShapes.rectangle));
     assertEquals(currentShape.get(0), animationOne.getAnimation(6).get(0));
   }
 
@@ -617,9 +626,11 @@ public class AnimationModelTest {
             10, 10, 20, 20, 100, 100, 100);
     List<IShape> currentShape = new ArrayList<>();
     currentShape.add(
-            new Rectangle(new Color(100, 100, 100), new Position2D(10, 10), 20, 20, "R"));
+            new Shape(new Color(100, 100, 100), new Position2D(10, 10), 20, 20, "R",
+                DifferentShapes.rectangle));
     currentShape.add(
-            new Oval(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "O"));
+            new Shape(new Color(0, 0, 0), new Position2D(0, 0), 10, 10, "O",
+                DifferentShapes.oval));
     assertEquals(currentShape.get(0), animationOne.getAnimation(11).get(0));
     assertEquals(currentShape.get(1), animationOne.getAnimation(11).get(1));
   }
@@ -640,7 +651,8 @@ public class AnimationModelTest {
             10, 10, 20, 20, 100, 100, 100);
     List<IShape> currentShape = new ArrayList<>();
     currentShape.add(
-            new Oval(new Color(100, 100, 100), new Position2D(10, 10), 20, 20, "O"));
+            new Shape(new Color(100, 100, 100), new Position2D(10, 10), 20, 20, "O",
+                DifferentShapes.oval));
     assertEquals(currentShape.get(0), animationOne.getAnimation(21).get(0));
   }
 

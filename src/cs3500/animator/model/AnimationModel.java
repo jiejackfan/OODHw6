@@ -40,19 +40,9 @@ public class AnimationModel implements AnimationOperation {
     if (shape == null || shape.equals("")) {
       throw new IllegalArgumentException("Invalid shape input.");
     }
-    switch (shape.toLowerCase()) {
-      case "rectangle":
-        nameMap.put(name, new Rectangle(name));
-        animation.put(nameMap.get(name), new ArrayList<>());
-        break;
-      case "oval":
-        nameMap.put(name, new Oval(name));
-        animation.put(nameMap.get(name), new ArrayList<>());
-        break;
-      // More shapes can be implemented here.
-      default:
-        throw new IllegalArgumentException("Please provide a valid shape.");
-    }
+
+    nameMap.put(name, new Shape(name, DifferentShapes.valueOf(shape.toLowerCase())));
+    animation.put(nameMap.get(name), new ArrayList<>());
   }
 
   @Override
@@ -240,15 +230,9 @@ public class AnimationModel implements AnimationOperation {
     double height = ratio * (tmpMotion.getEndHeight() - tmpMotion.getStartHeight())
             + tmpMotion.getStartHeight();
 
-    switch (shape) {
-      case "rectangle":
-        return new Rectangle(color, position, width, height, name);
-      case "oval":
-        return new Oval(color, position, width, height, name);
-      // More shapes can be implemented here.
-      default:
-        throw new IllegalArgumentException("Please provide a valid shape name.");
-    }
+    return new Shape(color, position, width, height, name,
+        DifferentShapes.valueOf(shape.toLowerCase()));
+
   }
 
   /**
