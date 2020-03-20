@@ -1,13 +1,6 @@
 package cs3500.animator.model;
 
-import java.util.List;
-
-/**
- * This is the interface of the main logic of this animation model. Animation model interface will
- * can create a shape, remove a shape, add motions to a shape, check if a listOfMotion is valid, and
- * convert current animation to strings.
- */
-public interface AnimationOperation {
+public interface IModel extends ReadOnlyModel{
 
   /**
    * This function will create a shape (out of rectangle, oval right now). User will store this
@@ -62,10 +55,10 @@ public interface AnimationOperation {
    *                                  negative.
    */
   void addMotion(String name, int startTime, int startX, int startY, double startWidth,
-                 double startHeight, int startColorR, int startColorG, int startColorB,
-                 int endTime, int endX, double endY, double endWidth,
-                 double endHeight, int endColorR,
-                 int endColorG, int endColorB);
+      double startHeight, int startColorR, int startColorG, int startColorB,
+      int endTime, int endX, double endY, double endWidth,
+      double endHeight, int endColorR,
+      int endColorG, int endColorB);
 
   /**
    * Return the complete animation as a string that discribes a shape and its list of motions.
@@ -91,17 +84,6 @@ public interface AnimationOperation {
    *                               teleportation.
    */
   String toString();
-
-  /**
-   * This will be a function that builds a list of shapes that can be passed to view. Each shape
-   * stores its Position2D, Color, width, height at a particular time. View will use this list of
-   * shapes to draw each shape at a particular time.
-   *
-   * @param time at which each shape should be built with.
-   * @return a list of shapes with updated information on whats happening in that shape.
-   * @throws IllegalArgumentException if the given time is less than 1.
-   */
-  List<IShape> getAnimation(int time);
 
   /**
    * Remove a motion from a list of motion for a given shape.

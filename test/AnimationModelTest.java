@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cs3500.animator.model.AnimationModel;
-import cs3500.animator.model.AnimationOperation;
+import cs3500.animator.model.ReadOnlyModel;
 import cs3500.animator.model.IShape;
 import cs3500.animator.model.Position2D;
 
@@ -23,7 +23,7 @@ import static org.junit.Assert.assertTrue;
  */
 public class AnimationModelTest {
 
-  AnimationOperation animationOne = new AnimationModel();
+  ReadOnlyModel animationOne = new AnimationModel();
 
   /**
    * createShape(shape, name) Invalid: shape = null/"", name = null/"" valid: create one given

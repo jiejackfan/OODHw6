@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * Implementation of the animation operation interface.
  */
-public class AnimationModel implements AnimationOperation {
+public class AnimationModel implements IModel {
 
   /**
    * This final hash map structure will store the user given name as the key and the key's
