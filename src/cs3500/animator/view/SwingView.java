@@ -13,4 +13,9 @@ public class SwingView extends JFrame implements VisualView {
   public void makeVisible() {
 
   }
+
+  @Override
+  public void render() {
+
+  }
 }
