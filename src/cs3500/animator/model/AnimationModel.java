@@ -1,6 +1,8 @@
 package cs3500.animator.model;
 
 import cs3500.animator.util.AnimationBuilder;
+import cs3500.animator.util.AnimationReader;
+import cs3500.animator.view.IView;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -296,32 +298,34 @@ public class AnimationModel implements IModel {
   public static final class Builder implements AnimationBuilder<IModel> {
 
     // Need a field that represents the animation builder.
-    private AnimationBuilder<IModel> builder;
+    private IModel m = new AnimationModel();
 
     @Override
     public IModel build() {
-      return null;
+      return m;
     }
 
     @Override
     public AnimationBuilder<IModel> setBounds(int x, int y, int width, int height) {
-      return null;
+      return this;
     }
 
     @Override
     public AnimationBuilder<IModel> declareShape(String name, String type) {
-      return null;
+      m.createShape(type, name);
+      return this;
     }
 
     @Override
-    public AnimationBuilder<IModel> addMotion(String name, int t1, int x1, int y1, int w1, int h1, int r1,
-        int g1, int b1, int t2, int x2, int y2, int w2, int h2, int r2, int g2, int b2) {
-      return null;
+    public AnimationBuilder<IModel> addMotion(String name, int t1, int x1, int y1, int w1, int h1,
+        int r1, int g1, int b1, int t2, int x2, int y2, int w2, int h2, int r2, int g2, int b2) {
+      m.addMotion(name, t1, x1, y1, w1, h1, r1, g1, b1, t2, x2, y2, w2, h2, r2, g2, b2);
+      return this;
     }
 
     @Override
-    public AnimationBuilder<IModel> addKeyframe(String name, int t, int x, int y, int w, int h, int r, int g,
-        int b) {
+    public AnimationBuilder<IModel> addKeyframe(String name, int t, int x, int y, int w, int h,
+        int r, int g, int b) {
       return null;
     }
   }
