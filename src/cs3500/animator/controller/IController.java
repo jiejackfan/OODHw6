@@ -1,15 +1,13 @@
 package cs3500.animator.controller;
 
-import cs3500.animator.model.ReadOnlyModel;
-
 /**
- *
+ * Represents a controlller for animation. Links the view and model together so view can get access
+ *  to reading a model and not mutate it.
  */
 public interface IController {
 
   /**
-   *
-   * @param m a animation model.
+   * Execute animation.
    */
-  void playAnimation(ReadOnlyModel m);
+  void playAnimation();
 }

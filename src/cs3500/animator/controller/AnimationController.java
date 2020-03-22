@@ -10,12 +10,13 @@ public class AnimationController implements IController {
   private IView v;
   private ReadOnlyModel m;
 
-  public AnimationController(IView v){
+  public AnimationController(IView v, ReadOnlyModel m){
     this.v = v;
+    this.m = m;
   }
 
   @Override
-  public void playAnimation(ReadOnlyModel m) {
-    this.m = m;
+  public void playAnimation() {
+    v.makeVisible();
   }
 }
