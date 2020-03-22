@@ -5,5 +5,6 @@ package cs3500.animator.view;
  */
 public interface IView {
 
+  public IView parseViewTypeFromString(String viewType);
 
 }

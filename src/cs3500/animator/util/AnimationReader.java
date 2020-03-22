@@ -29,7 +29,7 @@ public class AnimationReader {
    * @param readable The source of data for the animation
    * @param builder  A builder for helping to construct a new animation
    * @param <Doc>    The main model interface type describing animations
-   * @return aa
+   * @return <Doc> The model built from the file.
    */
   public static <Doc> Doc parseFile(Readable readable, AnimationBuilder<Doc> builder) {
     Objects.requireNonNull(readable, "Must have non-null readable source");
