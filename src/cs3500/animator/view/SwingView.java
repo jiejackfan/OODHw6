@@ -2,7 +2,7 @@ package cs3500.animator.view;
 
 import javax.swing.JFrame;
 
-public class SwingView extends JFrame implements VisualView {
+public class SwingView extends JFrame implements IView {
 
   @Override
   public void refresh() {
