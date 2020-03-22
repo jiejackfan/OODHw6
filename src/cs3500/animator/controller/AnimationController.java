@@ -14,6 +14,7 @@ public class AnimationController implements IController {
   private IView v;
   private ReadOnlyModel m;
   Timer timer;
+  int currentTick = 0;
 
 
   public static int delay;
@@ -21,6 +22,7 @@ public class AnimationController implements IController {
   ActionListener taskPerformer = new ActionListener() {
     @Override
     public void actionPerformed(ActionEvent e) {
+      currentTick++;
 
     }
   };
