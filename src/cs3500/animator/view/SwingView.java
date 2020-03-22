@@ -7,6 +7,13 @@ public class SwingView extends JFrame implements IView {
 
   private AnimatorPanel p;
 
+
+  /**
+   * Empty constructor to create an empty swing view class for ViewCreator (factory) class.
+   */
+  public SwingView() {
+
+  }
   /**
    * Initializing constructor for the swing view class. Takes in the readonly model for shape
    *  information retrieval. Also takes in location and size information given by the input text
@@ -27,6 +34,7 @@ public class SwingView extends JFrame implements IView {
     p = new AnimatorPanel(m);
     this.add(p);
   }
+
   @Override
   public void refresh() {
     this.repaint();

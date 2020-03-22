@@ -11,6 +11,15 @@ public class ViewCreator {
   }
 
   public IView createViewBasedOnType(String type) {
-    return null;
+    if (viewType.visual == viewType.valueOf(type.toLowerCase())) {
+      return new SwingView();
+    }
+    else if (viewType.text == viewType.valueOf(type.toLowerCase())) {
+      return new TextView();
+    }
+    else if (viewType.svg == viewType.valueOf(type.toLowerCase())) {
+      return new SVGView();
+    }
+    throw new IllegalStateException("Can't create the view specified in the input argument");
   }
 }

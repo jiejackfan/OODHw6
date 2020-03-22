@@ -1,7 +1,5 @@
 package cs3500.animator.model;
 
-import java.util.Objects;
-
 public enum DifferentShapes {
   rectangle("rectangle"), oval("oval");
 

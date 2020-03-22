@@ -10,4 +10,6 @@ public interface IController {
    * Execute animation.
    */
   void playAnimation();
+
+  void setDelay(int tickPerSecond);
 }
