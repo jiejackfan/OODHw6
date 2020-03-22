@@ -13,4 +13,9 @@ public class VView extends JFrame implements VisualView {
   public void makeVisible() {
 
   }
+
+  @Override
+  public IView parseViewTypeFromString(String viewType) {
+    return null;
+  }
 }
