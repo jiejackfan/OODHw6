@@ -1,11 +1,15 @@
 package cs3500.animator.model;
 
+import cs3500.animator.util.AnimationBuilder;
+import cs3500.animator.util.AnimationReader;
+import cs3500.animator.view.IView;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+
 
 /**
  * Implementation of the animation operation interface.
@@ -283,6 +287,46 @@ public class AnimationModel implements IModel {
     // start time
     public int compare(Motion a, Motion b) {
       return a.getStartTime() - b.getEndTime();
+    }
+  }
+
+  /**
+   * Implementation of the animation builder interface. This class will be the interconnection between
+   *  AnimationReader input and the animation. This class will create shape, add motion based on what
+   *  the input file specifies.
+   */
+  public static final class Builder implements AnimationBuilder<IModel> {
+
+    // Need a field that represents the animation builder.
+    private IModel m = new AnimationModel();
+
+    @Override
+    public IModel build() {
+      return m;
+    }
+
+    @Override
+    public AnimationBuilder<IModel> setBounds(int x, int y, int width, int height) {
+      return this;
+    }
+
+    @Override
+    public AnimationBuilder<IModel> declareShape(String name, String type) {
+      m.createShape(type, name);
+      return this;
+    }
+
+    @Override
+    public AnimationBuilder<IModel> addMotion(String name, int t1, int x1, int y1, int w1, int h1,
+        int r1, int g1, int b1, int t2, int x2, int y2, int w2, int h2, int r2, int g2, int b2) {
+      m.addMotion(name, t1, x1, y1, w1, h1, r1, g1, b1, t2, x2, y2, w2, h2, r2, g2, b2);
+      return this;
+    }
+
+    @Override
+    public AnimationBuilder<IModel> addKeyframe(String name, int t, int x, int y, int w, int h,
+        int r, int g, int b) {
+      return null;
     }
   }
 
