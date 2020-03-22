@@ -298,7 +298,7 @@ public class AnimationModel implements IModel {
   public static final class Builder implements AnimationBuilder<IModel> {
 
     // Need a field that represents the animation builder.
-    private IModel m = new AnimationModel();
+    private final IModel m = new AnimationModel();
 
     @Override
     public IModel build() {
@@ -326,7 +326,7 @@ public class AnimationModel implements IModel {
     @Override
     public AnimationBuilder<IModel> addKeyframe(String name, int t, int x, int y, int w, int h,
         int r, int g, int b) {
-      return null;
+      throw new UnsupportedOperationException("");
     }
   }
 
