@@ -60,8 +60,9 @@ public final class Excellence {
 
     String inputFileName = cmd.getOptionValue("in");
     String viewType = cmd.getOptionValue("view");
+    String outputFilePath = null;
     if (cmd.hasOption("out")) {
-      String outputFilePath = cmd.getOptionValue("out");
+      outputFilePath = cmd.getOptionValue("out");
     }
     double animationSpeed;
     if (cmd.hasOption("speed")) {
@@ -82,9 +83,10 @@ public final class Excellence {
       throw new IllegalArgumentException("The input file does not exist.");
     }
 
-    IView v = new ViewCreator().createViewBasedOnType(viewType);
-
+    IView v = new ViewCreator().createViewBasedOnType(viewType, m);
+    v.setOutputFileName(outputFilePath);
     IController c = new AnimationController(v, m);
+
     c.setDelay(animationSpeed);
     c.playAnimation();
 

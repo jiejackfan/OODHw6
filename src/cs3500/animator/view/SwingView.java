@@ -11,9 +11,10 @@ public class SwingView extends JFrame implements IView {
   /**
    * Empty constructor to create an empty swing view class for ViewCreator (factory) class.
    */
-  public SwingView() {
+  public SwingView(ReadOnlyModel m) {
 
   }
+
   /**
    * Initializing constructor for the swing view class. Takes in the readonly model for shape
    *  information retrieval. Also takes in location and size information given by the input text
@@ -47,6 +48,11 @@ public class SwingView extends JFrame implements IView {
 
   @Override
   public void render() {
+    makeVisible();
+  }
 
+  @Override
+  public void setOutputFileName(String outputFileName) {
+    //
   }
 }

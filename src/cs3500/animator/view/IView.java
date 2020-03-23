@@ -16,4 +16,6 @@ public interface IView {
   void makeVisible();
 
   void render();
+
+  void setOutputFileName(String outputFileName);
 }

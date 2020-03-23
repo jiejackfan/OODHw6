@@ -1,8 +1,12 @@
 package cs3500.animator.view;
 
+import cs3500.animator.model.ReadOnlyModel;
+
 public class SVGView implements IView {
 
-  public SVGView() {
+  private String outputFileName;
+
+  public SVGView(ReadOnlyModel m) {
 
   }
 
@@ -21,4 +25,10 @@ public class SVGView implements IView {
   public void render() {
 
   }
+
+  @Override
+  public void setOutputFileName(String outputFileName) {
+    this.outputFileName = outputFileName;
+  }
+
 }

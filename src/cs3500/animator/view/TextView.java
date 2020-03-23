@@ -1,9 +1,11 @@
 package cs3500.animator.view;
 
+import cs3500.animator.model.ReadOnlyModel;
+
 public class TextView implements IView {
+  private String outputFileName;
 
-
-  public TextView() {
+  public TextView(ReadOnlyModel m) {
     //
   }
 
@@ -20,6 +22,12 @@ public class TextView implements IView {
   @Override
   public void render() {
 
+
+  }
+
+  @Override
+  public void setOutputFileName(String outputFileName) {
+    this.outputFileName = outputFileName;
   }
 
 
