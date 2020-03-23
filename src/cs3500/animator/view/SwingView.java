@@ -41,8 +41,7 @@ public class SwingView extends JFrame implements IView {
     this.repaint();
   }
 
-  @Override
-  public void makeVisible() {
+  private void makeVisible() {
     this.setVisible(true);
   }
 
@@ -53,6 +52,6 @@ public class SwingView extends JFrame implements IView {
 
   @Override
   public void setOutputFileName(String outputFileName) {
-    //
+    throw new UnsupportedOperationException("Swing view should not need an output file name");
   }
 }

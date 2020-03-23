@@ -1,15 +1,12 @@
 package cs3500.animator.controller;
 
 import cs3500.animator.model.IModel;
-import cs3500.animator.model.ReadOnlyModel;
 import cs3500.animator.view.IView;
 import cs3500.animator.view.SVGView;
 import cs3500.animator.view.SwingView;
 import cs3500.animator.view.TextView;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.Timer;
 
 
@@ -28,9 +25,11 @@ public class AnimationController implements IController {
   ActionListener taskPerformer = new ActionListener() {
     @Override
     public void actionPerformed(ActionEvent e) {
-      currentTick++;
-
-
+      if (m.getCurrentTick() < m.getMaxTick() - 1) {
+        currentTick = currentTick + 1;
+        m.setTick(currentTick);
+      }
+      v.refresh();
     }
   };
 
@@ -45,6 +44,7 @@ public class AnimationController implements IController {
     if (v instanceof SwingView) {
       v.render();
       timer = new Timer(delay, taskPerformer);
+      timer.setRepeats(true);
       timer.start();
     } else if (v instanceof TextView || v instanceof SVGView) {
       v.render();

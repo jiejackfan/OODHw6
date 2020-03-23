@@ -21,5 +21,16 @@ public interface ReadOnlyModel {
    */
   List<IShape> getAnimation(int time);
 
+  /**
+   * Get the current tick of the model.
+   * @return an integer that represents current tick.
+   */
+  int getCurrentTick();
+
+  /**
+   * Get the max tick that the model will run to.
+   * @return integer that represents max tick of the animation.
+   */
+  int getMaxTick();
 
 }

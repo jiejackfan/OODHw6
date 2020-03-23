@@ -13,7 +13,7 @@ public interface IView {
   /**
    * Make the view visible when starting the animation.
    */
-  void makeVisible();
+  //void makeVisible();
 
   void render();
 

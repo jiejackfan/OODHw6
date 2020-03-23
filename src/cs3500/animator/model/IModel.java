@@ -97,4 +97,10 @@ public interface IModel extends ReadOnlyModel{
    *                                  motion in a list of motions.
    */
   void removeMotion(String name, int index);
+
+  /**
+   * Allow the controller to set the current tick of the system.
+   * @param newTick give the new tick that we want to assign to the model.
+   */
+  void setTick(int newTick);
 }

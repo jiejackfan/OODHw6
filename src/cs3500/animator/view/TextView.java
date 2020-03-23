@@ -15,11 +15,6 @@ public class TextView implements IView {
   }
 
   @Override
-  public void makeVisible() {
-    throw new UnsupportedOperationException("");
-  }
-
-  @Override
   public void render() {
 
 

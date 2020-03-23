@@ -1,8 +1,6 @@
 package cs3500.animator.model;
 
 import cs3500.animator.util.AnimationBuilder;
-import cs3500.animator.util.AnimationReader;
-import cs3500.animator.view.IView;
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -27,6 +25,9 @@ public class AnimationModel implements IModel {
    * list of motions.
    */
   private final Map<IShape, List<Motion>> animation;
+
+
+  private int currentTick = 0;
 
   /**
    * Constructor for model, initialize two empty hash maps.
@@ -93,7 +94,7 @@ public class AnimationModel implements IModel {
     if (nameMap.entrySet().isEmpty()) {
       return output;
     }
-    for (Map.Entry mapPair : nameMap.entrySet()) {
+    for (Map.Entry<String, IShape> mapPair : nameMap.entrySet()) {
       String name = (String) mapPair.getKey();
       output = output + "Shape " + name + " " + nameMap.get(name).getShapeName() + "\n";
       output = output + listOfMotionsToString(name, animation.get(nameMap.get(name)));
@@ -174,7 +175,7 @@ public class AnimationModel implements IModel {
 
     //go through all shapes in map, add to shapeAtTime if we find a shape that have motion at the
     //  exact time
-    for (Map.Entry mapPair : animation.entrySet()) {
+    for (Map.Entry<IShape, List<Motion>> mapPair : animation.entrySet()) {
       IShape tmpShape = (IShape) mapPair.getKey();
       Motion tmpMotion;
       if (isTimeInListOfMotion((List<Motion>) mapPair.getValue(), time)) {
@@ -184,6 +185,7 @@ public class AnimationModel implements IModel {
     }
     return shapesAtTime;
   }
+
 
   /**
    * Helper for getAnimation(). Checks the list of motion to see if the given time exist.
@@ -275,6 +277,33 @@ public class AnimationModel implements IModel {
 
     List<Motion> tmpListOfMotion = animation.get(tmpShape);
     tmpListOfMotion.remove(index);
+  }
+
+  @Override
+  public int getCurrentTick() {
+    return this.currentTick;
+  }
+
+  @Override
+  public int getMaxTick() {
+    int tmpMax = 0;
+    int EndTime = 0;
+    for (Map.Entry<IShape, List<Motion>> entry : animation.entrySet()) {
+      //direct mutation of the list of motion to sort them in order.
+      List<Motion> listOfMotion = entry.getValue();
+      listOfMotion.sort(new SortByStartTime());
+      EndTime = listOfMotion.get(listOfMotion.size() - 1).getEndTime();
+      if (EndTime > tmpMax) {
+        tmpMax = EndTime;
+      }
+    }
+
+    return tmpMax;
+  }
+
+  @Override
+  public void setTick(int newTick) {
+    currentTick = newTick;
   }
 
 
