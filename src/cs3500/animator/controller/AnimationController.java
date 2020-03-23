@@ -1,5 +1,6 @@
 package cs3500.animator.controller;
 
+import cs3500.animator.model.IModel;
 import cs3500.animator.model.ReadOnlyModel;
 import cs3500.animator.view.IView;
 import java.awt.event.ActionEvent;
@@ -12,13 +13,13 @@ import javax.swing.Timer;
  */
 public class AnimationController implements IController {
   private IView v;
-  private ReadOnlyModel m;
+  private IModel m;
+
   Timer timer;
   int currentTick = 0;
 
-
   public static int delay;
-  boolean delaySetSuccess = false;
+
   ActionListener taskPerformer = new ActionListener() {
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -27,29 +28,22 @@ public class AnimationController implements IController {
     }
   };
 
-  public AnimationController(IView v, ReadOnlyModel m){
+  public AnimationController(IView v, IModel m) {
     this.v = v;
     this.m = m;
   }
 
-
-
   @Override
   public void playAnimation() {
-    v.makeVisible();
-
-    if (!delaySetSuccess) {
-      throw new IllegalStateException("The tick speed is not set for the controller.");
-    }
-
+    v.render();
     timer = new Timer(delay, taskPerformer);
     timer.start();
   }
 
   @Override
-  public void setDelay(int tickPerSecond) {
-    delay = 1000 / tickPerSecond;
-    delaySetSuccess = true;
+  public void setDelay(double tickPerSecond) {
+    delay = (int) (1000 / tickPerSecond); // msec per tick
   }
+
 
 }

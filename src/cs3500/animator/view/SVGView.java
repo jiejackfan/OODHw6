@@ -9,12 +9,12 @@ public class SVGView implements IView {
   // no need to refresh,
   @Override
   public void refresh() {
-
+    throw new UnsupportedOperationException("");
   }
 
   @Override
   public void makeVisible() {
-
+    throw new UnsupportedOperationException("");
   }
 
   @Override

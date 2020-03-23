@@ -11,5 +11,5 @@ public interface IController {
    */
   void playAnimation();
 
-  void setDelay(int tickPerSecond);
+  void setDelay(double tickPerSecond);
 }

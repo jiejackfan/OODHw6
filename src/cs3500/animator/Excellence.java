@@ -7,6 +7,24 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.Option;
 import org.apache.commons.cli.ParseException;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.StringReader;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Scanner;
+
+import cs3500.animator.controller.AnimationController;
+import cs3500.animator.controller.IController;
+import cs3500.animator.model.AnimationModel;
+import cs3500.animator.model.IModel;
+import cs3500.animator.util.AnimationBuilder;
+import cs3500.animator.util.AnimationReader;
+import cs3500.animator.view.IView;
+import cs3500.animator.view.ViewCreator;
+
 public final class Excellence {
   public static void main(String[] args) {
 
@@ -45,10 +63,30 @@ public final class Excellence {
     if (cmd.hasOption("out")) {
       String outputFilePath = cmd.getOptionValue("out");
     }
+    double animationSpeed;
     if (cmd.hasOption("speed")) {
       String rawSpeed = cmd.getOptionValue("speed");
-      double animationSpeed = Double.parseDouble(rawSpeed);
+      animationSpeed = Double.parseDouble(rawSpeed);
+    } else {
+      animationSpeed = 1;
     }
+
+    AnimationBuilder<IModel> modelBuilder = new AnimationModel.Builder();
+
+    IModel m;
+    try {
+      Readable inputFileContent = new StringReader(
+              new String(Files.readAllBytes(Paths.get(inputFileName))));
+      m = AnimationReader.parseFile(inputFileContent, modelBuilder);
+    } catch (IOException e) {
+      throw new IllegalArgumentException("The input file does not exist.");
+    }
+
+    IView v = new ViewCreator().createViewBasedOnType(viewType);
+
+    IController c = new AnimationController(v, m);
+    c.setDelay(animationSpeed);
+    c.playAnimation();
 
   }
 }
