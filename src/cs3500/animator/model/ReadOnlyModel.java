@@ -53,8 +53,6 @@ public interface ReadOnlyModel {
    */
   int getMaxTick();
 
-  void setCanvas(int x, int y, int w, int h);
-
   int getCanvasX();
 
   int getCanvasY();

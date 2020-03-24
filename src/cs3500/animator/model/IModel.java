@@ -85,4 +85,6 @@ public interface IModel extends ReadOnlyModel{
    *  teleportation.
    */
   void sortAndCheckListsOfMotions();
+
+  void setCanvas(int x, int y, int w, int h);
 }
