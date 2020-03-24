@@ -63,7 +63,7 @@ public final class Excellence {
       String rawSpeed = cmd.getOptionValue("speed");
       animationSpeed = Double.parseDouble(rawSpeed);
     } else {
-      animationSpeed = 1;
+      animationSpeed = 1.0;
     }
 
     AnimationBuilder<IModel> modelBuilder = new AnimationModel.Builder();
