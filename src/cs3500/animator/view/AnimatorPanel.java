@@ -1,8 +1,11 @@
 package cs3500.animator.view;
 
+import cs3500.animator.model.DifferentShapes;
+import cs3500.animator.model.IShape;
 import cs3500.animator.model.ReadOnlyModel;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+import java.util.List;
 import javax.swing.JPanel;
 
 public class AnimatorPanel extends JPanel {
@@ -21,6 +24,22 @@ public class AnimatorPanel extends JPanel {
   public void paintComponent(Graphics g) {
     super.paintComponent(g);
     Graphics2D g2 = (Graphics2D) g;
+
+    List<IShape> listOfShape = m.getAnimation(m.getCurrentTick());
+    for (IShape shape : listOfShape) {
+      if (shape.getShape() == DifferentShapes.oval) {
+        //g2.drawRect((int)shape.getPosition().getX(), (int)shape.getPosition().getY(),
+        //    (int)shape.getWidth(), (int)shape.getHeight());
+        g2.setColor(shape.getColor());
+        g2.fillRect((int)shape.getPosition().getX(), (int)shape.getPosition().getY(),
+            (int)shape.getWidth(), (int)shape.getHeight());
+      }
+      else if (shape.getShape() == DifferentShapes.rectangle) {
+        g2.setColor(shape.getColor());
+        g2.fillOval((int)shape.getPosition().getX(), (int)shape.getPosition().getY(),
+            (int)shape.getWidth(), (int)shape.getHeight());
+      }
+    }
   }
 
 }

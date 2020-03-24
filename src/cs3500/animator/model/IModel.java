@@ -79,4 +79,10 @@ public interface IModel extends ReadOnlyModel{
    * @param newTick give the new tick that we want to assign to the model.
    */
   void setTick(int newTick);
+
+  /**
+   * Check the model by first sorting list of motion of each shape and check if each list has
+   *  teleportation.
+   */
+  void sortAndCheckListsOfMotions();
 }

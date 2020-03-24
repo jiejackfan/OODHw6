@@ -1,5 +1,7 @@
 package cs3500.animator.model;
 
+import java.awt.Color;
+
 /**
  * This interface represents a geometric shape. It contains a lists of operations such as get the
  * name of the shape, compare different shapes.
@@ -34,4 +36,12 @@ public interface IShape {
    * @return boolean value of whther the two shapes are equal.
    */
   boolean equals(Object that);
+
+  Color getColor();
+  Position2D getPosition();
+  double getWidth();
+  double getHeight();
+  DifferentShapes getShape();
+
+
 }

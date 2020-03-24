@@ -117,12 +117,14 @@ public class AnimationModel implements IModel {
    */
   private String listOfMotionsToString(String name, List<Motion> listOfMotion) {
 
-    listOfMotion.sort(new SortByStartTime());
+    //listOfMotion.sort(new SortByStartTime());
 
+    /*
     if (!checkValidAnimation(listOfMotion)) {
       throw new IllegalStateException("There is teleportation or overlap in this shape, this "
               + "shape will be deleted.");
     }
+    */
 
     String result = "";
     for (Motion m : listOfMotion) {
@@ -311,6 +313,23 @@ public class AnimationModel implements IModel {
   }
 
 
+  @Override
+  public void sortAndCheckListsOfMotions() {
+    if (nameMap.entrySet().isEmpty()) {
+      return;
+    }
+
+    for (Map.Entry<IShape, List<Motion>> entry : animation.entrySet()) {
+      entry.getValue().sort(new SortByStartTime());
+
+      if (!checkValidAnimation(entry.getValue())) {
+        throw new IllegalStateException("There is teleportation or overlap in this shape, this "
+            + "shape will be deleted.");
+      }
+    }
+  }
+
+
   /**
    * This is a comparator class that we will use when trying to sort a list of motion based on its
    * start time.
@@ -388,6 +407,7 @@ public class AnimationModel implements IModel {
 
     @Override
     public IModel build() {
+      m.sortAndCheckListsOfMotions();
       return m;
     }
 
