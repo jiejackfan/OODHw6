@@ -26,6 +26,10 @@ public class AnimationModel implements IModel {
    */
   private final Map<IShape, List<Motion>> animation;
 
+  private int canvasX;
+  private int canvasY;
+  private int canvasWidth;
+  private int canvasHeight;
 
   private int currentTick = 0;
 
@@ -319,10 +323,63 @@ public class AnimationModel implements IModel {
     }
   }
 
+  @Override
+  public void setCanvas(int x, int y, int w, int h) {
+    if (x < 0 || y < 0 || w < 0 || h < 0) {
+      throw new IllegalArgumentException("The canvas position and size must be positive.");
+    }
+    this.canvasX = x;
+    this.canvasY = y;
+    this.canvasWidth = w;
+    this.canvasHeight = h;
+  }
+
+  @Override
+  public int getCanvasX() {
+    return this.canvasX;
+  }
+
+  @Override
+  public int getCanvasY() {
+    return this.canvasY;
+  }
+
+  @Override
+  public int getCanvasWidth() {
+    return this.canvasWidth;
+  }
+
+  @Override
+  public int getCanvasHeight() {
+    return this.canvasHeight;
+  }
+
+  @Override
+  public List<IShape> getAllShapes() {
+    List<IShape> allShapes = new ArrayList<>();
+    for (Map.Entry<String, IShape> mapPair : nameMap.entrySet()) {
+      // make a copy of the shape
+      allShapes.add(new Shape((Shape) mapPair.getValue()));
+    }
+    return allShapes;
+  }
+
+  @Override
+  public List<Motion> getAllMotionsOfShape(IShape shape) {
+    List<Motion> allMotions = new ArrayList<>();
+    List<Motion> storedMotions = animation.get(shape);
+    for (Motion m : storedMotions) {
+      // make a copy of the motion
+      allMotions.add(new Motion(m));
+    }
+    return allMotions;
+  }
+
+
   /**
-   * Implementation of the animation builder interface. This class will be the interconnection between
-   *  AnimationReader input and the animation. This class will create shape, add motion based on what
-   *  the input file specifies.
+   * Implementation of the animation builder interface. This class will be the interconnection
+   * between AnimationReader input and the animation. This class will create shape, add motion based
+   * on what the input file specifies.
    */
   public static final class Builder implements AnimationBuilder<IModel> {
 
@@ -336,6 +393,7 @@ public class AnimationModel implements IModel {
 
     @Override
     public AnimationBuilder<IModel> setBounds(int x, int y, int width, int height) {
+      m.setCanvas(x, y, width, height);
       return this;
     }
 
