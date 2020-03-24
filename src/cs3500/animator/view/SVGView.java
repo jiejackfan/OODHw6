@@ -50,23 +50,21 @@ public class SVGView implements IView {
         if (!readOnlyModel.getAllMotionsOfShape(s).isEmpty()) {
           switch (s.getShape()) {
             case rectangle:
-              svgContent = svgContent
-                      + String.format("<rect id=\"%s\" x=\"%.3f\" y=\"%.3f\" width=\"%.3f\" "
+              svgContent += String.format("<rect id=\"%s\" x=\"%.3f\" y=\"%.3f\" width=\"%.3f\" "
                               + "height=\"%.3f\" fill=\"rgb(%d,%d,%d)\" visibility=\"visible\" >\n",
                       s.getName(), s.getPosition().getX(), s.getPosition().getY(),
                       s.getWidth(), s.getHeight(), s.getColor().getRed(), s.getColor().getGreen(),
                       s.getColor().getBlue())
-                      + getShapeAnimationDetail(s)
+                      + getShapeAnimationDetail(s, svgContent)
                       + "</rect>";
               break;
             case oval:
-              svgContent = svgContent
-                      + String.format("<ellipse id=\"%s\" cx=\"%.3f\" cy=\"%.3f\" rx=\"%.3f\" "
+              svgContent += String.format("<ellipse id=\"%s\" cx=\"%.3f\" cy=\"%.3f\" rx=\"%.3f\" "
                               + "ry=\"%.3f\" fill=\"rgb(%d,%d,%d)\" visibility=\"visible\" >\n",
                       s.getName(), s.getPosition().getX(), s.getPosition().getY(),
                       s.getWidth(), s.getHeight(), s.getColor().getRed(), s.getColor().getGreen(),
                       s.getColor().getBlue())
-                      + getShapeAnimationDetail(s)
+                      + getShapeAnimationDetail(s, svgContent)
                       + "</ellipse>";
               break;
             default:
@@ -74,8 +72,7 @@ public class SVGView implements IView {
           }
         }
       }
-
-      svgContent = svgContent + "</svg>";
+      svgContent += "</svg>";
       fileWriter.write(svgContent);
       fileWriter.close();
     } catch (IOException ioe) {
@@ -83,14 +80,43 @@ public class SVGView implements IView {
     }
   }
 
-  private String getShapeAnimationDetail(IShape s) {
+  private String getShapeAnimationDetail(IShape s, String svgContent) {
     // Generate SVG descriptions for all the changes in all motions of the given shape
     List<Motion> allMotions = readOnlyModel.getAllMotionsOfShape(s);
     for (Motion m : allMotions) {
+      int startTime = m.getStartTime();
+      int duration = m.getEndTime() - m.getStartTime();
       if (m.getStartPosition().getX() != m.getEndPosition().getX()) {
-        // Need to consult TA
+        String x = s.getShape().equals("rectangle") ? "x" : "cx";
+        svgContent += String.format("<animate attributeType=\"xml\" begin=\"%ds\" dur=\"%ds\" "
+                        + "attributeName=\"%s\" from=\"%f.3\" to=\"%f.3\" fill=\"freeze\" />",
+                startTime, duration, x, m.getStartPosition().getX(),
+                m.getEndPosition().getX());
+      } else if (m.getStartPosition().getY() != m.getEndPosition().getY()) {
+        String y = s.getShape().equals("rectangle") ? "y" : "cy";
+        svgContent += String.format("<animate attributeType=\"xml\" begin=\"%ds\" dur=\"%ds\" "
+                        + "attributeName=\"%s\" from=\"%f.3\" to=\"%f.3\" fill=\"freeze\" />",
+                startTime, duration, y, m.getStartPosition().getY(), m.getEndPosition().getY());
+      } else if (m.getStartWidth() != m.getEndWidth()) {
+        String w = s.getShape().equals("rectangle") ? "width" : "rx";
+        svgContent += String.format("<animate attributeType=\"xml\" begin=\"%ds\" dur=\"%ds\" "
+                        + "attributeName=\"%s\" from=\"%f.3\" to=\"%f.3\" fill=\"freeze\" />",
+                startTime, duration, w, m.getStartWidth(), m.getEndWidth());
+      } else if (m.getStartHeight() != m.getEndHeight()) {
+        String h = s.getShape().equals("rectangle") ? "height" : "ry";
+        svgContent += String.format("<animate attributeType=\"xml\" begin=\"%ds\" dur=\"%ds\" "
+                        + "attributeName=\"%s\" from=\"%f.3\" to=\"%f.3\" fill=\"freeze\" />",
+                startTime, duration, h, m.getStartHeight(), m.getEndHeight());
+      } else if (!m.getStartColor().equals(m.getEndColor())) {
+        svgContent += String.format("<animate attributeType=\"xml\" begin=\"%ds\" dur=\"%ds\" "
+                        + "attributeName=\"fill\" from=\"rgb(%d,%d,%d)\" to=\"rgb(%d,%d,%d)\""
+                        + " fill=\"freeze\" />",
+                startTime, duration, m.getStartColor().getRed(), m.getStartColor().getGreen(),
+                m.getStartColor().getBlue(), m.getEndColor().getRed(), m.getEndColor().getGreen(),
+                m.getEndColor().getBlue());
       }
     }
+    return svgContent;
   }
 
   @Override
