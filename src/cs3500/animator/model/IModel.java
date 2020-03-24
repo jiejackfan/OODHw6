@@ -1,5 +1,10 @@
 package cs3500.animator.model;
 
+/**
+ * The model interface that contains functions that can mutate the model. This Animation model
+ *  interface can create a shape, remove a shape, add motions to a shape, remove motions, and
+ *  contains setter functions for model's tick and canvas size.
+ */
 public interface IModel extends ReadOnlyModel{
 
   /**

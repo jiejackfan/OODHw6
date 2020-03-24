@@ -4,7 +4,8 @@ import java.awt.Color;
 
 /**
  * This interface represents a geometric shape. It contains a lists of operations such as get the
- * name of the shape, compare different shapes.
+ * name of the shape, compare different shapes. Because each shape will contain information of each
+ * parameter at a particular tick, there are getter functions for getting all parameter.
  */
 public interface IShape {
 
