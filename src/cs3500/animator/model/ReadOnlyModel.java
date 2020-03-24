@@ -3,7 +3,7 @@ package cs3500.animator.model;
 import java.util.List;
 
 /**
- * This is the interface of the main logic of this animation model. Animation model interface will
+ * This is the interface of the cs3500.animator.main logic of this animation model. Animation model interface will
  * can create a shape, remove a shape, add motions to a shape, check if a listOfMotion is valid, and
  * convert current animation to strings.
  */

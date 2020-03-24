@@ -4,7 +4,7 @@ import cs3500.animator.model.IModel;
 import cs3500.animator.model.ReadOnlyModel;
 
 /**
- * Factory class to create a view based on input arguments from main. This can create 3 different
+ * Factory class to create a view based on input arguments from cs3500.animator.main. This can create 3 different
  * types of view: svg, text, and swing (visual) view.
  */
 public class ViewCreator {

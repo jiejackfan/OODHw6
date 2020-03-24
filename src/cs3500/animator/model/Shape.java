@@ -99,4 +99,30 @@ public class Shape implements IShape {
     }
   }
 
+  @Override
+  public Color getColor() {
+    return this.color;
+  }
+
+  @Override
+  public Position2D getPosition() {
+    return this.position;
+  }
+
+  @Override
+  public double getWidth() {
+    return this.width;
+  }
+
+  @Override
+  public double getHeight() {
+    return this.height;
+  }
+
+  @Override
+  public DifferentShapes getShape() {
+    return this.shape;
+  }
+
+
 }
