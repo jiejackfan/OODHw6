@@ -3,9 +3,10 @@ package cs3500.animator.model;
 import java.util.List;
 
 /**
- * This is the interface of the cs3500.animator.main logic of this animation model. Animation model interface will
- * can create a shape, remove a shape, add motions to a shape, check if a listOfMotion is valid, and
- * convert current animation to strings.
+ * This is the read only interface of the cs3500.animator.main logic of this animation model. It
+ *  contains getAnimation() which is what the view will use to build an animation. It also contains
+ *  function like toString for text view. There are lots of a getter functions for the fields in the
+ *  model.
  */
 public interface ReadOnlyModel {
 

@@ -3,7 +3,8 @@ package cs3500.animator.model;
 import java.util.Objects;
 
 /**
- * Position class that will store where the animation is currently at.
+ * Position class that will store where the animation is currently at. This class will have getter
+ *  function for the x and y positon and also comparison of two positions.
  */
 public class Position2D {
 

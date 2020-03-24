@@ -8,7 +8,8 @@ import cs3500.animator.view.IView;
 import cs3500.animator.view.SwingView;
 
 /**
- * Used to test Swing View.
+ * Used to test Swing View. This main function will create 2 random shapes randomly. The view will
+ *  then play some motion of the shapes.
  */
 public class mainClass {
   public static void main(String[] args) {
