@@ -1,7 +1,5 @@
 package cs3500.animator;
 
-import java.io.StringReader;
-
 public class Excellence1 {
   public void main(String[] args) {
     double tickPerSecond = 1;
@@ -15,19 +13,19 @@ public class Excellence1 {
     while (i < args.length) {
       arg = args[i];
 
-      // use this type of check for "wordy" arguments
       if (arg.equals("-in")) {
-        System.out.println("verbose mode on");
-        vflag = true;
       }
-      // use this type of check for arguments that require arguments
-      else if (arg.equals("-output")) {
+      else if (arg.equals("-view")) {
+      }
+      else if (arg.equals("-out")) {
+      }
+      else if (arg.equals("-speed")) {
+        arg = args[++i];
+
       }
 
       i++;
     }
-
-  }
 
   }
 }
