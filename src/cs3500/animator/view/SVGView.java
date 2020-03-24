@@ -11,7 +11,7 @@ public class SVGView implements IView {
   private String outputFileName;
   private final ReadOnlyModel readOnlyModel;
 
-  public SVGView(ReadOnlyModel m) {
+  public SVGView(ReadOnlyModel m, int width, int height, int x, int y) {
     this.readOnlyModel = m;
   }
 

@@ -11,25 +11,25 @@ public class SwingView extends JFrame implements IView {
   /**
    * Empty constructor to create an empty swing view class for ViewCreator (factory) class.
    */
+  /*
   public SwingView(ReadOnlyModel m) {
 
   }
-
+  */
   /**
    * Initializing constructor for the swing view class. Takes in the readonly model for shape
    *  information retrieval. Also takes in location and size information given by the input text
    *  to set up the canvas and window.
-   * @param title name we want to give our pop up window.
    * @param m a read only model of our animation.
-   * @param size1 the width of our canvas.
-   * @param size2 the height of our canvas.
-   * @param loc1 the leftmost x position of our pop up window.
-   * @param loc2 the top most y position of our pop up window.
+   * @param width the width of our canvas.
+   * @param height the height of our canvas.
+   * @param x the leftmost x position of our pop up window.
+   * @param y the top most y position of our pop up window.
    */
-  public SwingView(String title, ReadOnlyModel m, int size1, int size2, int loc1, int loc2) {
-    super(title);
-    setSize(size1, size2);
-    setLocation(loc1, loc2);
+  public SwingView(ReadOnlyModel m, int width, int height, int x, int y) {
+    super("Swing View of Animation");
+    setSize(width, height);
+    setLocation(x, y);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     p = new AnimatorPanel(m);
