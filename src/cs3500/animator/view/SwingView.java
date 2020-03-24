@@ -48,6 +48,7 @@ public class SwingView extends JFrame implements IView {
 
   @Override
   public void setOutputFileName(String outputFileName) {
-    throw new UnsupportedOperationException("Swing view should not need an output file name");
+    setTitle(outputFileName);
+    //throw new UnsupportedOperationException("Swing view should not need an output file name");
   }
 }

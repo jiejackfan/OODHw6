@@ -24,7 +24,7 @@ public class mainClass {
     IView v = new SwingView(m, 400, 400, 50, 50);
 
     IController c = new AnimationController(v, m);
-    c.setDelay(1);
+    c.setDelay(1.5);
     c.playAnimation();
   }
 }
