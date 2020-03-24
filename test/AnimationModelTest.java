@@ -1,19 +1,17 @@
-import cs3500.animator.model.DifferentShapes;
-import cs3500.animator.model.Shape;
-import org.junit.Test;
-
-import java.awt.Color;
-import java.util.ArrayList;
-import java.util.List;
-
-import cs3500.animator.model.AnimationModel;
-import cs3500.animator.model.ReadOnlyModel;
-import cs3500.animator.model.IShape;
-import cs3500.animator.model.Position2D;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+
+import cs3500.animator.model.AnimationModel;
+import cs3500.animator.model.DifferentShapes;
+import cs3500.animator.model.IModel;
+import cs3500.animator.model.IShape;
+import cs3500.animator.model.Position2D;
+import cs3500.animator.model.Shape;
+import java.awt.Color;
+import java.util.ArrayList;
+import java.util.List;
+import org.junit.Test;
 
 /**
  * Test class for our animation model. Verify that our model can create shapes and add each shape's
@@ -23,7 +21,7 @@ import static org.junit.Assert.assertTrue;
  */
 public class AnimationModelTest {
 
-  ReadOnlyModel animationOne = new AnimationModel();
+  IModel animationOne = new AnimationModel();
 
   /**
    * createShape(shape, name) Invalid: shape = null/"", name = null/"" valid: create one given

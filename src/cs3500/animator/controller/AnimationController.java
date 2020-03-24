@@ -25,7 +25,7 @@ public class AnimationController implements IController {
   ActionListener taskPerformer = new ActionListener() {
     @Override
     public void actionPerformed(ActionEvent e) {
-      if (m.getCurrentTick() < m.getMaxTick() - 1) {
+      if (m.getCurrentTick() < m.getMaxTick()) {
         currentTick = currentTick + 1;
         m.setTick(currentTick);
       }
