@@ -3,19 +3,15 @@ package cs3500.animator.view;
 import cs3500.animator.model.ReadOnlyModel;
 import javax.swing.JFrame;
 
+/**
+ * The swing view class that will create a running GUI of the animation. This view class will take
+ *  care of initializing the GUI window, adding a panel to the GUI, telling the GUI to refresh and
+ *  to show itself in the beginning.
+ */
 public class SwingView extends JFrame implements IView {
 
   private AnimatorPanel p;
 
-
-  /**
-   * Empty constructor to create an empty swing view class for ViewCreator (factory) class.
-   */
-  /*
-  public SwingView(ReadOnlyModel m) {
-
-  }
-  */
   /**
    * Initializing constructor for the swing view class. Takes in the readonly model for shape
    *  information retrieval. Also takes in location and size information given by the input text
