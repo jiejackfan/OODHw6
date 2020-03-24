@@ -10,7 +10,9 @@ import java.util.Map;
 
 
 /**
- * Implementation of the animation operation interface.
+ * The animation model implementation. It will implement all methods declared in IModel and
+ *  ReadOnlyModel. This model will be the main storage of the animation. It will store shapes and
+ *  each shape's List<Motions> in a LinkedHashMap.
  */
 public class AnimationModel implements IModel {
 

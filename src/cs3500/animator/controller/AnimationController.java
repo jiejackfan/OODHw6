@@ -11,7 +11,9 @@ import javax.swing.Timer;
 
 
 /**
- * Controller implementation.
+ * Controller implementation that will be the communication between view and model. This controller
+ *  will take control of the timing (ticks per second) of our animation. It will tell the model the
+ *  current tick and tell view to update when a new tick happens.
  */
 public class AnimationController implements IController {
   private IView v;
@@ -22,6 +24,13 @@ public class AnimationController implements IController {
 
   public static int delay;
 
+  /**
+   * This action listener will be used by the timer initialized in playAnimation().
+   *  The taskPerformer will perform an action based on the user's given speed. It will perform
+   *  the following action:
+   *  1. update the current tick in the model.
+   *  2. tell the view to repaint the panel based on the model with new tick.
+   */
   ActionListener taskPerformer = new ActionListener() {
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -33,6 +42,12 @@ public class AnimationController implements IController {
     }
   };
 
+  /**
+   * Constructor of the annimation controller. This is where the controller will gain access of the
+   *  model and the view that will be used for the animation.
+   * @param v a view object that will create animation in SVG, text, or swing format.
+   * @param m a model object that stored the animations read from the input file.
+   */
   public AnimationController(IView v, IModel m) {
     this.v = v;
     this.m = m;

@@ -53,16 +53,42 @@ public interface ReadOnlyModel {
    */
   int getMaxTick();
 
+  /**
+   * Getter function to get the x coordinate of the canvas.
+   * @return an integer x coordinate.
+   */
   int getCanvasX();
 
+  /**
+   * Getter function to get the y coordinate of the canvas.
+   * @return an integer y coordinate.
+   */
   int getCanvasY();
 
+  /**
+   * Getter function to get the width of the canvas.
+   * @return an integer that represent width.
+   */
   int getCanvasWidth();
 
+  /**
+   * Getter function to get the height of the canvas.
+   * @return an integer that represent height.
+   */
   int getCanvasHeight();
 
+  /**
+   * Getter function to get the a list of Shapes that the model current stored.
+   * @return an list of IShape.
+   */
   List<IShape> getAllShapes();
 
+
+  /**
+   * Getter function to get the a list of Motions of a particular shape
+   *  that the model current stored.
+   * @return an list of motions.
+   */
   List<Motion> getAllMotionsOfShape(IShape shape);
 
 

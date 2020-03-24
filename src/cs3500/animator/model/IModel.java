@@ -86,5 +86,13 @@ public interface IModel extends ReadOnlyModel{
    */
   void sortAndCheckListsOfMotions();
 
+  /**
+   * Function to store parameters that will be needed to set canvas location and size later in the
+   *  view.
+   * @param x coordinate of the canvas location.
+   * @param y coordinate of the canvas location.
+   * @param w width of the canvas.
+   * @param h height of the canvas.
+   */
   void setCanvas(int x, int y, int w, int h);
 }

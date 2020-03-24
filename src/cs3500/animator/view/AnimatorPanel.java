@@ -8,6 +8,12 @@ import java.awt.Graphics2D;
 import java.util.List;
 import javax.swing.JPanel;
 
+/**
+ * The swing panel class that will draw the animation stored in a ReadOnly model. This panel class
+ *  will take care of painting the animation of the current tick. It will call getAnimation() from
+ *  the model to get a List<Shape> where each shape has information of Color, Position, width,
+ *  height of itself at a particular tick.
+ */
 public class AnimatorPanel extends JPanel {
   private ReadOnlyModel m;
 
@@ -26,10 +32,11 @@ public class AnimatorPanel extends JPanel {
     Graphics2D g2 = (Graphics2D) g;
 
     List<IShape> listOfShape = m.getAnimation(m.getCurrentTick());
+
+    //Go through each shape in the List of shape and draw the corresponding shape.
+    //Draws the shapes in order from first to last so the last object will be on top.
     for (IShape shape : listOfShape) {
       if (shape.getShape() == DifferentShapes.oval) {
-        //g2.drawRect((int)shape.getPosition().getX(), (int)shape.getPosition().getY(),
-        //    (int)shape.getWidth(), (int)shape.getHeight());
         g2.setColor(shape.getColor());
         g2.fillRect((int)shape.getPosition().getX(), (int)shape.getPosition().getY(),
             (int)shape.getWidth(), (int)shape.getHeight());
