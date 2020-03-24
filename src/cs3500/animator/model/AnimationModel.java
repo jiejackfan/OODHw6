@@ -174,10 +174,12 @@ public class AnimationModel implements IModel {
   public List<IShape> getAnimation(int time) {
 
     List<IShape> shapesAtTime = new ArrayList<>();
-
+    /*
     if (time < 1) {
       throw new IllegalArgumentException("Invalid time.");
     }
+    */
+
 
     //go through all shapes in map, add to shapeAtTime if we find a shape that have motion at the
     //  exact time
