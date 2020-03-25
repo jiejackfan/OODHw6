@@ -176,20 +176,14 @@ public class AnimationModel implements IModel {
   public List<IShape> getAnimation(int time) {
 
     List<IShape> shapesAtTime = new ArrayList<>();
-    /*
-    if (time < 1) {
-      throw new IllegalArgumentException("Invalid time.");
-    }
-    */
-
 
     //go through all shapes in map, add to shapeAtTime if we find a shape that have motion at the
     //  exact time
     for (Map.Entry<IShape, List<Motion>> mapPair : animation.entrySet()) {
-      IShape tmpShape = (IShape) mapPair.getKey();
+      IShape tmpShape = mapPair.getKey();
       Motion tmpMotion;
-      if (isTimeInListOfMotion((List<Motion>) mapPair.getValue(), time)) {
-        tmpMotion = findMotion((List<Motion>) mapPair.getValue(), time);
+      if (isTimeInListOfMotion(mapPair.getValue(), time)) {
+        tmpMotion = findMotion(mapPair.getValue(), time);
         shapesAtTime.add(buildShape(tmpShape.getShapeName(), tmpMotion, time, tmpShape.getName()));
       }
     }
@@ -206,9 +200,10 @@ public class AnimationModel implements IModel {
    */
   private boolean isTimeInListOfMotion(List<Motion> listOfMotion, int time) {
     int startTime = listOfMotion.get(0).getStartTime();
-    int endTime = listOfMotion.get(listOfMotion.size() - 1).getEndTime();
+    //int endTime = listOfMotion.get(listOfMotion.size() - 1).getEndTime();
 
-    return (time >= startTime && time <= endTime);
+    //return (time >= startTime && time <= endTime);
+    return (time >= startTime && time <= getMaxTick());
   }
 
 
@@ -224,31 +219,37 @@ public class AnimationModel implements IModel {
    * @throws IllegalArgumentException if the shape does not exist.
    */
   private IShape buildShape(String shape, Motion tmpMotion, int time, String name) {
+    //if the time has passed the ending time
+    if (time > tmpMotion.getEndTime() && time <= getMaxTick()) {
+      return new Shape(tmpMotion.getEndColor(), tmpMotion.getEndPosition(), tmpMotion.getEndWidth(),
+          tmpMotion.getEndHeight(), name, DifferentShapes.valueOf(shape.toLowerCase()));
+    }
+    //else if the time has not passed ending time
+    else {
+      double ratio = (double) (time - tmpMotion.getStartTime())
+          / (tmpMotion.getEndTime() - tmpMotion.getStartTime());
+      Color color = new Color(
+          (int) (ratio * (tmpMotion.getEndColor().getRed() - tmpMotion.getStartColor().getRed())
+              + tmpMotion.getStartColor().getRed()),
+          (int) (ratio * (tmpMotion.getEndColor().getGreen()
+              - tmpMotion.getStartColor().getGreen())
+              + tmpMotion.getStartColor().getGreen()),
+          (int) (ratio * (tmpMotion.getEndColor().getBlue()
+              - tmpMotion.getStartColor().getBlue())
+              + tmpMotion.getStartColor().getBlue()));
+      Position2D position = new Position2D(
+          ratio * (tmpMotion.getEndPosition().getX() - tmpMotion.getStartPosition().getX())
+              + tmpMotion.getStartPosition().getX(),
+          ratio * (tmpMotion.getEndPosition().getY() - tmpMotion.getStartPosition().getY())
+              + tmpMotion.getStartPosition().getY());
+      double width = ratio * (tmpMotion.getEndWidth() - tmpMotion.getStartWidth())
+          + tmpMotion.getStartWidth();
+      double height = ratio * (tmpMotion.getEndHeight() - tmpMotion.getStartHeight())
+          + tmpMotion.getStartHeight();
 
-    double ratio = (double) (time - tmpMotion.getStartTime())
-            / (tmpMotion.getEndTime() - tmpMotion.getStartTime());
-    Color color = new Color(
-            (int) (ratio * (tmpMotion.getEndColor().getRed() - tmpMotion.getStartColor().getRed())
-                    + tmpMotion.getStartColor().getRed()),
-            (int) (ratio * (tmpMotion.getEndColor().getGreen()
-                    - tmpMotion.getStartColor().getGreen())
-                    + tmpMotion.getStartColor().getGreen()),
-            (int) (ratio * (tmpMotion.getEndColor().getBlue()
-                    - tmpMotion.getStartColor().getBlue())
-                    + tmpMotion.getStartColor().getBlue()));
-    Position2D position = new Position2D(
-            ratio * (tmpMotion.getEndPosition().getX() - tmpMotion.getStartPosition().getX())
-                    + tmpMotion.getStartPosition().getX(),
-            ratio * (tmpMotion.getEndPosition().getY() - tmpMotion.getStartPosition().getY())
-                    + tmpMotion.getStartPosition().getY());
-    double width = ratio * (tmpMotion.getEndWidth() - tmpMotion.getStartWidth())
-            + tmpMotion.getStartWidth();
-    double height = ratio * (tmpMotion.getEndHeight() - tmpMotion.getStartHeight())
-            + tmpMotion.getStartHeight();
-
-    return new Shape(color, position, width, height, name,
-        DifferentShapes.valueOf(shape.toLowerCase()));
-
+      return new Shape(color, position, width, height, name,
+          DifferentShapes.valueOf(shape.toLowerCase()));
+    }
   }
 
   /**
@@ -267,7 +268,7 @@ public class AnimationModel implements IModel {
         return new Motion(tmpMotion);
       }
     }
-    throw new IllegalArgumentException("Should not reach this point.");
+    return new Motion(listOfMotion.get(listOfMotion.size() - 1));
   }
 
   @Override
@@ -348,7 +349,7 @@ public class AnimationModel implements IModel {
 
   @Override
   public void setCanvas(int x, int y, int w, int h) {
-    if (x < 0 || y < 0 || w < 0 || h < 0) {
+    if (/*x < 0 || y < 0 || */w < 0 || h < 0) {
       throw new IllegalArgumentException("The canvas position and size must be positive.");
     }
     this.canvasX = x;

@@ -51,7 +51,7 @@ public class Motion {
                 Color startColor, int endTime, Position2D endPosition, double endWidth,
                 double endHeight, Color endColor) {
     // Check whether the given times are valid.
-    if (startTime < 1 || endTime < 1) {
+    if (startTime < 0 || endTime < 0) {
       throw new IllegalArgumentException("Invalid time.");
     }
     if (startTime > endTime) {
