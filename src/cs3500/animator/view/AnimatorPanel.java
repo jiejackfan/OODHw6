@@ -39,12 +39,12 @@ public class AnimatorPanel extends JPanel {
     //Go through each shape in the List of shape and draw the corresponding shape.
     //Draws the shapes in order from first to last so the last object will be on top.
     for (IShape shape : listOfShape) {
-      if (shape.getShape() == DifferentShapes.oval
-          || shape.getShape() == DifferentShapes.ellipse) {
+      if (shape.getShape() == DifferentShapes.rectangle) {
         g2.setColor(shape.getColor());
         g2.fillRect((int) shape.getPosition().getX(), (int) shape.getPosition().getY(),
                 (int) shape.getWidth(), (int) shape.getHeight());
-      } else if (shape.getShape() == DifferentShapes.rectangle) {
+      } else if (shape.getShape() == DifferentShapes.oval
+          || shape.getShape() == DifferentShapes.ellipse) {
         g2.setColor(shape.getColor());
         g2.fillOval((int) shape.getPosition().getX(), (int) shape.getPosition().getY(),
                 (int) shape.getWidth(), (int) shape.getHeight());
