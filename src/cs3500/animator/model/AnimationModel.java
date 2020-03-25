@@ -11,7 +11,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-
 /**
  * The animation model implementation. It will implement all methods declared in IModel and
  *  ReadOnlyModel. This model will be the main storage of the animation. It will store shapes and
@@ -343,7 +342,6 @@ public class AnimationModel implements IModel {
     }
   }
 
-
   /**
    * This is a comparator class that we will use when trying to sort a list of motion based on its
    * start time.
@@ -419,7 +417,6 @@ public class AnimationModel implements IModel {
     }
     return allMotions;
   }
-
 
   /**
    * Implementation of the animation builder interface. This class will be the interconnection

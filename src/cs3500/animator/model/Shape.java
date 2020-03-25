@@ -4,11 +4,11 @@ import java.awt.Color;
 import java.util.Objects;
 
 /**
- * A class implementation of a Shape in our animation. A Shape will have 2 uses.
- *  1. One use is for building the "animation" hash map. The hashmap will use a shape as the Key.
- *  2. Second use for a Shape is a List<Shape> will get passed to the view for the view to build
- *    an animation. Therefore, each shape will store all parameters (color, pos, width, height,
- *    shape, name) of a shape at a particular tick.
+ * A class implementation of a Shape in our animation. A Shape will have 2 uses. 1. One use is for
+ * building the "animation" hash map. The hashmap will use a shape as the Key. 2. Second use for a
+ * Shape is a List<Shape> will get passed to the view for the view to build an animation. Therefore,
+ * each shape will store all parameters (color, pos, width, height, shape, name) of a shape at a
+ * particular tick.
  */
 public class Shape implements IShape {
 
@@ -22,7 +22,8 @@ public class Shape implements IShape {
   /**
    * Constructor of abstract shape that does not conduct assignment. This will be used when the the
    * system creates a shape without a list of motions.
-   * @param name name of the shape that should be initialized.
+   *
+   * @param name  name of the shape that should be initialized.
    * @param shape shape of the shape that should be initialized.
    */
   public Shape(String name, DifferentShapes shape) {
@@ -47,7 +48,7 @@ public class Shape implements IShape {
    * @param shape    shape of the shape that should be initialized.
    */
   public Shape(Color color, Position2D position, double width, double height, String name,
-      DifferentShapes shape) {
+               DifferentShapes shape) {
     if (width <= 0 || height <= 0) {
       throw new IllegalArgumentException("The width and height must be positive");
     }
@@ -97,11 +98,11 @@ public class Shape implements IShape {
         return false;
       }
       return (this.color.equals(((Shape) that).color))
-          && (this.position.equals(((Shape) that).position))
-          && (Math.abs(this.width - ((Shape) (that)).width) < 0.1)
-          && (Math.abs(this.height - ((Shape) (that)).height) < 0.1)
-          && (this.shape == ((Shape) (that)).shape)
-          && (this.name.equals(((Shape) (that)).name));
+              && (this.position.equals(((Shape) that).position))
+              && (Math.abs(this.width - ((Shape) (that)).width) < 0.1)
+              && (Math.abs(this.height - ((Shape) (that)).height) < 0.1)
+              && (this.shape == ((Shape) (that)).shape)
+              && (this.name.equals(((Shape) (that)).name));
     }
   }
 

@@ -2,7 +2,7 @@ package cs3500.animator.model;
 
 /**
  * Enumeration of the different shapes we want to create. This is a feature to remove concrete shape
- *  classes in the model.
+ * classes in the model.
  */
 public enum DifferentShapes {
   rectangle("rectangle"), oval("oval");
@@ -11,6 +11,7 @@ public enum DifferentShapes {
 
   /**
    * Constructor of the enumeration.
+   *
    * @param shape a string representation of each element in the enum.
    */
   DifferentShapes(String shape) {
@@ -19,6 +20,7 @@ public enum DifferentShapes {
 
   /**
    * Getter function to get the string representation of each enum.
+   *
    * @return String representation of enum.
    */
   public String getShape() {

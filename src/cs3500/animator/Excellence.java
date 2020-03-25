@@ -1,4 +1,5 @@
 package cs3500.animator;
+
 import cs3500.animator.controller.AnimationController;
 import cs3500.animator.controller.IController;
 import cs3500.animator.model.AnimationModel;
@@ -7,10 +8,12 @@ import cs3500.animator.util.AnimationBuilder;
 import cs3500.animator.util.AnimationReader;
 import cs3500.animator.view.IView;
 import cs3500.animator.view.ViewCreator;
+
 import java.io.IOException;
 import java.io.StringReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
@@ -79,7 +82,7 @@ public final class Excellence {
     }
 
     IView v = new ViewCreator().createViewBasedOnType(viewType, m, m.getCanvasWidth(),
-        m.getCanvasHeight(), m.getCanvasX(), m.getCanvasY());
+            m.getCanvasHeight(), m.getCanvasX(), m.getCanvasY());
     v.setOutputFileName(outputFilePath);
     IController c = new AnimationController(v, m);
 

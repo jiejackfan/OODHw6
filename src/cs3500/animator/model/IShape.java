@@ -40,30 +40,35 @@ public interface IShape {
 
   /**
    * Getter function to get this shape's color at specific tick.
+   *
    * @return a Color that the shape has at tick time.
    */
   Color getColor();
 
   /**
    * Getter function to get this shape's Position at specific tick.
+   *
    * @return a Position2D that the shape has at tick time.
    */
   Position2D getPosition();
 
   /**
    * Getter function to get this shape's width at specific tick.
+   *
    * @return a double that the shape has at tick time.
    */
   double getWidth();
 
   /**
    * Getter function to get this shape's height at specific tick.
+   *
    * @return a double that the shape has at tick time.
    */
   double getHeight();
 
   /**
    * Getter function to get this shape's shape type (DifferentShapes enum) at specific tick.
+   *
    * @return a DifferentShapes object that the shape has at tick time.
    */
   DifferentShapes getShape();

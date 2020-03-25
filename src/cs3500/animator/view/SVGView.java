@@ -9,19 +9,36 @@ import cs3500.animator.model.IShape;
 import cs3500.animator.model.Motion;
 import cs3500.animator.model.ReadOnlyModel;
 
+/**
+ * The SVG view class that will generate a .svg file with the animation expressed in the SVG format.
+ * This view class will take care of creating an new output file if it does not exist, writing the
+ * animation description according to the SVG documentation to the output file, and close the
+ * writing when done.
+ */
 public class SVGView implements IView {
 
   private String outputFileName;
   private final ReadOnlyModel readOnlyModel;
 
+  /**
+   * Initializing constructor for the SVG view class. Takes in the readonly model for shape
+   * information retrieval. Also takes in location and size information given by the input text to
+   * set up the window.
+   *
+   * @param m      the given readonly model
+   * @param width  the given width of the window
+   * @param height the given height of the window
+   * @param x      the given x of the location
+   * @param y      the given y of the location
+   */
   public SVGView(ReadOnlyModel m, int width, int height, int x, int y) {
     this.readOnlyModel = m;
   }
 
-  // no need to refresh,
   @Override
   public void refresh() {
-    throw new UnsupportedOperationException("");
+    // no need to refresh
+    throw new UnsupportedOperationException("This function is not supported in SVG view.");
   }
 
   @Override
@@ -90,6 +107,14 @@ public class SVGView implements IView {
     }
   }
 
+  /**
+   * This is a helper method that creates animation details for the given shape according to the SVG
+   * format and adds to the current SVG file content.
+   *
+   * @param s          the given shape
+   * @param svgContent the current SVG file contents
+   * @return a String that represents the new SVG file contents after the addition
+   */
   private String getShapeAnimationDetail(IShape s, String svgContent) {
     // Generate SVG descriptions for all the changes in all motions of the given shape
     List<Motion> allMotions = readOnlyModel.getAllMotionsOfShape(s);
