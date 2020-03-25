@@ -18,7 +18,7 @@ import java.nio.file.Paths;
  * Main function of this animator that will be converted into the .jar file. Accpets arguments of
  * which input file to run.
  */
-public class Excellence1 {
+public class ExcellenceCLI {
   public static void main(String[] args) {
     double tickPerSecond = 1;
     String inputFileName = "";
