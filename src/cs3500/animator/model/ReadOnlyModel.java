@@ -14,7 +14,9 @@ public interface ReadOnlyModel {
   /**
    * This will be a function that builds a list of shapes that can be passed to view. Each shape
    * stores its Position2D, Color, width, height at a particular time. View will use this list of
-   * shapes to draw each shape at a particular time.
+   * shapes to draw each shape at a particular time. A Shape that did not start showing it self in
+   * the panel will not be added to the list. A Shape that was added to the list but ended animation
+   * earlier will still be put into the list, with its ending charactersitics filled in.
    *
    * @param time at which each shape should be built with.
    * @return a list of shapes with updated information on whats happening in that shape.

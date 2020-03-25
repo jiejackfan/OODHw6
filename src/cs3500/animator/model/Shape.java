@@ -16,7 +16,6 @@ public class Shape implements IShape {
   protected Position2D position;
   protected double width;
   protected double height;
-  //protected String shape;
   protected DifferentShapes shape;
   protected String name;
 
