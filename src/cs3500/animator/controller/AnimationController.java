@@ -64,6 +64,7 @@ public class AnimationController implements IController {
       timer.setRepeats(true);
       timer.start();
     } else if (v instanceof TextView || v instanceof SVGView) {
+      v.setDelay(delay);
       v.render();
     }
   }

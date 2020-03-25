@@ -28,4 +28,6 @@ public interface IView {
    *                                       an output name.
    */
   void setOutputFileName(String outputFileName);
+
+  void setDelay(int delay);
 }

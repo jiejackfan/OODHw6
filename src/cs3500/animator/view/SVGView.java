@@ -1,4 +1,5 @@
 package cs3500.animator.view;
+import cs3500.animator.controller.AnimationController;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -19,6 +20,7 @@ public class SVGView implements IView {
 
   private String outputFileName;
   private final ReadOnlyModel readOnlyModel;
+  private double delay;
 
   /**
    * Initializing constructor for the SVG view class. Takes in the readonly model for shape
@@ -59,7 +61,7 @@ public class SVGView implements IView {
       List<IShape> initialShapes = readOnlyModel.getShapesBeginning();
       List<IShape> allShapes = readOnlyModel.getAllShapes();
       int counter = 0;
-      svgContent += String.format("<svg width=\"1000\" height=\"%d %d %d %d\" version=\"1.1\" "
+      svgContent += String.format("<svg viewBox=\"%d %d %d %d\" version=\"1.1\" "
                       + "xmlns=\"http://www.w3.org/2000/svg\">\n",
               readOnlyModel.getCanvasX(),
               readOnlyModel.getCanvasY(),
@@ -121,35 +123,35 @@ public class SVGView implements IView {
     // Generate SVG descriptions for all the changes in all motions of the given shape
     List<Motion> allMotions = readOnlyModel.getAllMotionsOfShape(s);
     for (Motion m : allMotions) {
-      int startTime = m.getStartTime();
-      int duration = m.getEndTime() - m.getStartTime();
+      double startTime = m.getStartTime() * delay;
+      double duration = (m.getEndTime() - m.getStartTime()) * delay;
       if (m.getStartPosition().getX() != m.getEndPosition().getX()) {
         String x = s.getShape().equals("rectangle") ? "x" : "cx";
-        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%dms\" dur=\"%dms\" "
+        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, x, m.getStartPosition().getX(),
                 m.getEndPosition().getX());
       }
       if (m.getStartPosition().getY() != m.getEndPosition().getY()) {
         String y = s.getShape().equals("rectangle") ? "y" : "cy";
-        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%dms\" dur=\"%dms\" "
+        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, y, m.getStartPosition().getY(), m.getEndPosition().getY());
       }
       if (m.getStartWidth() != m.getEndWidth()) {
         String w = s.getShape().equals("rectangle") ? "width" : "rx";
-        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%dms\" dur=\"%dms\" "
+        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, w, m.getStartWidth(), m.getEndWidth());
       }
       if (m.getStartHeight() != m.getEndHeight()) {
         String h = s.getShape().equals("rectangle") ? "height" : "ry";
-        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%dms\" dur=\"%dms\" "
+        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, h, m.getStartHeight(), m.getEndHeight());
       }
       if (!m.getStartColor().equals(m.getEndColor())) {
-        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%dms\" dur=\"%dms\" "
+        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"fill\" from=\"rgb(%d,%d,%d)\" to=\"rgb(%d,%d,%d)\""
                         + " fill=\"freeze\"/>\n",
                 startTime, duration, m.getStartColor().getRed(), m.getStartColor().getGreen(),
@@ -163,6 +165,11 @@ public class SVGView implements IView {
   @Override
   public void setOutputFileName(String outputFileName) {
     this.outputFileName = outputFileName;
+  }
+
+  @Override
+  public void setDelay(int delay) {
+    this.delay = delay;
   }
 
 }
