@@ -13,6 +13,10 @@ import java.io.StringReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+/**
+ * Main function of this animator that will be converted into the .jar file. Accpets arguments of
+ *  which input file to run.
+ */
 public class Excellence1 {
   public static void main(String[] args) {
     double tickPerSecond = 1;
