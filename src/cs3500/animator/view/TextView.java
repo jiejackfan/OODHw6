@@ -21,6 +21,7 @@ public class TextView implements IView {
 
   @Override
   public void render() {
+    System.out.println(outputFileName); // debug
     File file = new File(outputFileName);
     // Create the output file first if it does not exist
     if (!file.exists()) {
