@@ -1,4 +1,3 @@
-/*
 
 import org.junit.Test;
 
@@ -102,4 +101,3 @@ public class TextViewTest {
   }
 
 }
-*/

@@ -367,9 +367,11 @@ public class AnimationModel implements IModel {
     List<IShape> shapesBeginnings = new ArrayList<>();
     for (Map.Entry<IShape, List<Motion>> mapPair : animation.entrySet()) {
       IShape tmpShape = mapPair.getKey();
-      Motion tmpMotion = mapPair.getValue().get(0);
-      shapesBeginnings.add(buildShape(tmpShape.getShapeName(), tmpMotion,
-              tmpMotion.getStartTime(), tmpShape.getName()));
+      if (!mapPair.getValue().isEmpty()) {
+        Motion tmpMotion = mapPair.getValue().get(0);
+        shapesBeginnings.add(buildShape(tmpShape.getShapeName(), tmpMotion,
+                tmpMotion.getStartTime(), tmpShape.getName()));
+      }
     }
     return shapesBeginnings;
   }

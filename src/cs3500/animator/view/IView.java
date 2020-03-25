@@ -31,5 +31,10 @@ public interface IView {
    */
   void setOutputFileName(String outputFileName);
 
+  /**
+   * Set the delay in view.
+   *
+   * @param delay the given delay.
+   */
   void setDelay(int delay);
 }

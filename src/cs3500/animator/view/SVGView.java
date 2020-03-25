@@ -111,6 +111,7 @@ public class SVGView implements IView {
     }
   }
 
+
   /**
    * This is a helper method that creates animation details for the given shape according to the SVG
    * format and adds to the current SVG file content.
