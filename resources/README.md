@@ -23,8 +23,10 @@ Changes to the model:
 View: 3 different types:
 1.Swing Visual View:
   Sets up a panel where the panel can draw animation at each tick. Has refresh and set visible.
+  
 2.SVG View:
   Sets up svg documents with FileWriter.
+  
 3.Text View
   Print toString function to a txt file.
   
