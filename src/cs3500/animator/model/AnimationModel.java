@@ -181,8 +181,6 @@ public class AnimationModel implements IModel {
       throw new IllegalArgumentException("Invalid time.");
     }
     */
-
-
     //go through all shapes in map, add to shapeAtTime if we find a shape that have motion at the
     //  exact time
     for (Map.Entry<IShape, List<Motion>> mapPair : animation.entrySet()) {

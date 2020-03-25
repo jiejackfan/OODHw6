@@ -32,11 +32,11 @@ public final class Excellence {
     view.setRequired(true);
     options.addOption(view);
 
-    Option out = new Option("out", false, "output file path");
+    Option out = new Option("out", true, "output file path");
     out.setRequired(false);
     options.addOption(out);
 
-    Option speed = new Option("speed", false, "speed of animation");
+    Option speed = new Option("speed", true, "speed of animation");
     speed.setRequired(false);
     options.addOption(speed);
 
@@ -57,6 +57,7 @@ public final class Excellence {
     String outputFilePath = null;
     if (cmd.hasOption("out")) {
       outputFilePath = cmd.getOptionValue("out");
+      System.out.println(outputFilePath); // debug
     }
     double animationSpeed;
     if (cmd.hasOption("speed")) {
