@@ -8,7 +8,8 @@ package cs3500.animator.view;
 public interface IView {
 
   /**
-   * Refresh view to reflect change in the game state.
+   * Refresh view to reflect change in the game state. Used in swing state to repain the canvas with
+   *  animation of a new tick.
    *
    * @throws UnsupportedOperationException in text and SVG view because no animation will be played
    *                                       in those two classes live.
@@ -17,15 +18,16 @@ public interface IView {
 
   /**
    * Called at the beginning of each view to start their animation building process.
+   *  For swing view, render will display the GUI window.
+   *  For text and svg, render will use FileWriter to write to an output file.
    */
   void render();
 
   /**
-   * Set the output file name for the text.
+   * Set the output file name for the text. Function should be called after contructing the view.
    *
-   * @param outputFileName String that you want to name the output file with.
-   * @throws UnsupportedOperationException in the swing view class because swing view does not need
-   *                                       an output name.
+   * @param outputFileName String that you want to name the output file with. Given as an input arg.
+   *                       In swing view, output file name will be the title of the GUI window.
    */
   void setOutputFileName(String outputFileName);
 

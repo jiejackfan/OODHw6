@@ -5,7 +5,7 @@ package cs3500.animator.model;
  * classes in the model.
  */
 public enum DifferentShapes {
-  rectangle("rectangle"), oval("oval");
+  rectangle("rectangle"), oval("oval"), ellipse("ellipse");
 
   private final String shape;
 

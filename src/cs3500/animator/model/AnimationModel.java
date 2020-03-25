@@ -1,9 +1,6 @@
 package cs3500.animator.model;
 
-import org.w3c.dom.html.HTMLMapElement;
-
 import cs3500.animator.util.AnimationBuilder;
-
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -436,6 +433,12 @@ public class AnimationModel implements IModel {
 
     @Override
     public AnimationBuilder<IModel> setBounds(int x, int y, int width, int height) {
+      if (x < 0) {
+        x = 0;
+      }
+      if( y < 0) {
+        y = 0;
+      }
       m.setCanvas(x, y, width, height);
       return this;
     }
