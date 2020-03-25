@@ -1,14 +1,11 @@
 package cs3500.animator.view;
-import cs3500.animator.controller.AnimationController;
-
+import cs3500.animator.model.IShape;
+import cs3500.animator.model.Motion;
+import cs3500.animator.model.ReadOnlyModel;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
-
-import cs3500.animator.model.IShape;
-import cs3500.animator.model.Motion;
-import cs3500.animator.model.ReadOnlyModel;
 
 /**
  * The SVG view class that will generate a .svg file with the animation expressed in the SVG format.
@@ -84,6 +81,7 @@ public class SVGView implements IView {
                       initialShapes.get(counter).getColor().getBlue());
               svgContent = getShapeAnimationDetail(s, svgContent) + "\t</rect>\n";
               break;
+            case ellipse:
             case oval:
               svgContent += String.format("\t<ellipse id=\"%s\" cx=\"%.3f\" cy=\"%.3f\" rx=\"%.3f\" "
                               + "ry=\"%.3f\" fill=\"rgb(%d,%d,%d)\" visibility=\"visible\">\n",

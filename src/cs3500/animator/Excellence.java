@@ -23,7 +23,7 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
 /**
- * Main class that is out of date. Will use Excellence1 insteaed.
+ * Main class that is out of date. Will use ExcellenceCLI insteaed.
  */
 public final class Excellence {
   public static void main(String[] args) {
