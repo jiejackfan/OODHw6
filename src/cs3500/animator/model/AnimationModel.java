@@ -224,6 +224,12 @@ public class AnimationModel implements IModel {
       return new Shape(tmpMotion.getEndColor(), tmpMotion.getEndPosition(), tmpMotion.getEndWidth(),
           tmpMotion.getEndHeight(), name, DifferentShapes.valueOf(shape.toLowerCase()));
     }
+    //if starttime the time given
+    else if (time == tmpMotion.getStartTime()) {
+      return new Shape(tmpMotion.getStartColor(), tmpMotion.getStartPosition(),
+          tmpMotion.getStartWidth(), tmpMotion.getStartHeight(), name,
+          DifferentShapes.valueOf(shape.toLowerCase()));
+    }
     //else if the time has not passed ending time
     else {
       double ratio = (double) (time - tmpMotion.getStartTime())
