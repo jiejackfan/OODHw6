@@ -39,6 +39,9 @@ public class SwingView extends JFrame implements IView {
     this.repaint();
   }
 
+  /**
+   * Helper function for render(), makes the GUI window visible.
+   */
   private void makeVisible() {
     this.setVisible(true);
   }

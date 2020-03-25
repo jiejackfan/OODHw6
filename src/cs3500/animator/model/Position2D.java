@@ -24,9 +24,9 @@ public class Position2D {
    * @throws IllegalArgumentException if the given x or y is negative
    */
   public Position2D(double x, double y) {
-    if (x < 0 || y < 0) {
+    /*if (x < 0 || y < 0) {
       throw new IllegalArgumentException("The coordinates cannot be negative.");
-    }
+    }*/
     this.x = x;
     this.y = y;
   }
