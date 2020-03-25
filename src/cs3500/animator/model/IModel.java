@@ -1,11 +1,13 @@
 package cs3500.animator.model;
 
+import java.util.List;
+
 /**
  * The model interface that contains functions that can mutate the model. This Animation model
- *  interface can create a shape, remove a shape, add motions to a shape, remove motions, and
- *  contains setter functions for model's tick and canvas size.
+ * interface can create a shape, remove a shape, add motions to a shape, remove motions, and
+ * contains setter functions for model's tick and canvas size.
  */
-public interface IModel extends ReadOnlyModel{
+public interface IModel extends ReadOnlyModel {
 
   /**
    * This function will create a shape (out of rectangle, oval right now). User will store this
@@ -60,10 +62,10 @@ public interface IModel extends ReadOnlyModel{
    *                                  negative.
    */
   void addMotion(String name, int startTime, int startX, int startY, double startWidth,
-      double startHeight, int startColorR, int startColorG, int startColorB,
-      int endTime, int endX, double endY, double endWidth,
-      double endHeight, int endColorR,
-      int endColorG, int endColorB);
+                 double startHeight, int startColorR, int startColorG, int startColorB,
+                 int endTime, int endX, double endY, double endWidth,
+                 double endHeight, int endColorR,
+                 int endColorG, int endColorB);
 
 
   /**
@@ -100,4 +102,6 @@ public interface IModel extends ReadOnlyModel{
    * @param h height of the canvas.
    */
   void setCanvas(int x, int y, int w, int h);
+
+
 }

@@ -1,6 +1,9 @@
 package cs3500.animator.model;
 
+import org.w3c.dom.html.HTMLMapElement;
+
 import cs3500.animator.util.AnimationBuilder;
+
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -362,6 +365,18 @@ public class AnimationModel implements IModel {
     this.canvasY = y;
     this.canvasWidth = w;
     this.canvasHeight = h;
+  }
+
+  @Override
+  public List<IShape> getShapesBeginning() {
+    List<IShape> shapesBeginnings = new ArrayList<>();
+    for (Map.Entry<IShape, List<Motion>> mapPair : animation.entrySet()) {
+      IShape tmpShape = mapPair.getKey();
+      Motion tmpMotion = mapPair.getValue().get(0);
+      shapesBeginnings.add(buildShape(tmpShape.getShapeName(), tmpMotion,
+              tmpMotion.getStartTime(), tmpShape.getName()));
+    }
+    return shapesBeginnings;
   }
 
   @Override

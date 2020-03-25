@@ -94,5 +94,6 @@ public interface ReadOnlyModel {
    */
   List<Motion> getAllMotionsOfShape(IShape shape);
 
+  List<IShape> getShapesBeginning();
 
 }

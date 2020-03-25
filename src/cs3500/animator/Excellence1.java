@@ -48,7 +48,6 @@ public class Excellence1 {
           tickPerSecond = Double.parseDouble(arg);
           break;
       }
-
       i++;
     }
 

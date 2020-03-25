@@ -39,13 +39,13 @@ public class SVGView implements IView {
     // Write to the text file
     try {
       FileWriter fileWriter = new FileWriter(outputFileName);
-      List<IShape> initialShapes = readOnlyModel.getAnimation(1);
+      List<IShape> initialShapes = readOnlyModel.getShapesBeginning();
       List<IShape> allShapes = readOnlyModel.getAllShapes();
       int counter = 0;
-      svgContent += String.format("<svg width=\"%d\" height=\"%d\" version=\"1.1\" "
-                      + "xmlns=\"http://www.w3.org/2000/svg\">\n",
-              readOnlyModel.getCanvasWidth(),
-              readOnlyModel.getCanvasHeight());
+      svgContent += String.format("<svg width=\"1000\" height=\"1000\" version=\"1.1\" "
+              + "xmlns=\"http://www.w3.org/2000/svg\">\n");
+      // readOnlyModel.getCanvasWidth(),
+      // readOnlyModel.getCanvasHeight());
       // Add the animation shape by insertion order
       for (IShape s : allShapes) {
         if (!readOnlyModel.getAllMotionsOfShape(s).isEmpty()) {
@@ -98,31 +98,31 @@ public class SVGView implements IView {
       int duration = m.getEndTime() - m.getStartTime();
       if (m.getStartPosition().getX() != m.getEndPosition().getX()) {
         String x = s.getShape().equals("rectangle") ? "x" : "cx";
-        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%ds\" dur=\"%ds\" "
+        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%dms\" dur=\"%dms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, x, m.getStartPosition().getX(),
                 m.getEndPosition().getX());
       }
       if (m.getStartPosition().getY() != m.getEndPosition().getY()) {
         String y = s.getShape().equals("rectangle") ? "y" : "cy";
-        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%ds\" dur=\"%ds\" "
+        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%dms\" dur=\"%dms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, y, m.getStartPosition().getY(), m.getEndPosition().getY());
       }
       if (m.getStartWidth() != m.getEndWidth()) {
         String w = s.getShape().equals("rectangle") ? "width" : "rx";
-        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%ds\" dur=\"%ds\" "
+        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%dms\" dur=\"%dms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, w, m.getStartWidth(), m.getEndWidth());
       }
       if (m.getStartHeight() != m.getEndHeight()) {
         String h = s.getShape().equals("rectangle") ? "height" : "ry";
-        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%ds\" dur=\"%ds\" "
+        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%dms\" dur=\"%dms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, h, m.getStartHeight(), m.getEndHeight());
       }
       if (!m.getStartColor().equals(m.getEndColor())) {
-        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%ds\" dur=\"%ds\" "
+        svgContent += String.format("\t\t<animate attributeType=\"xml\" begin=\"%dms\" dur=\"%dms\" "
                         + "attributeName=\"fill\" from=\"rgb(%d,%d,%d)\" to=\"rgb(%d,%d,%d)\""
                         + " fill=\"freeze\"/>\n",
                 startTime, duration, m.getStartColor().getRed(), m.getStartColor().getGreen(),
