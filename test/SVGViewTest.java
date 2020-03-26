@@ -59,11 +59,12 @@ public class SVGViewTest {
     // Generate the command line
     String[] inputArray = new String[6];
     inputArray[0] = "-in";
-    inputArray[1] = "toh-3.txt";
+    inputArray[1] = "toh-8.txt";
     inputArray[2] = "-view";
-    inputArray[3] = "text";
+    inputArray[3] = "svg";
     inputArray[4] = "-out";
-    inputArray[5] = "toh-3Output.txt";
+    inputArray[5] = "toh-at-20.svg";
+    inputArray[6] = "-speed";
     // Create the output
     Excellence.main(inputArray);
     // Compare with the expected output

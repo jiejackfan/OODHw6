@@ -87,7 +87,7 @@ public class TextViewTest {
     inputArray[2] = "-view";
     inputArray[3] = "text";
     inputArray[4] = "-out";
-    inputArray[5] = "toh-3Output.txt";
+    inputArray[5] = "text-transcript.txt";
     // Create the output
     Excellence.main(inputArray);
     // Compare with the expected output
