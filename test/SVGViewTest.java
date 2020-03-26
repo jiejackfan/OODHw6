@@ -8,6 +8,9 @@ import cs3500.animator.Excellence;
 
 import static org.junit.Assert.assertTrue;
 
+/**
+ * The test class for the svg view. Tests include taking in text files with different contents.
+ */
 public class SVGViewTest {
 
   @Test
@@ -57,7 +60,7 @@ public class SVGViewTest {
   @Test
   public void testAnimation() {
     // Generate the command line
-    String[] inputArray = new String[6];
+    String[] inputArray = new String[8];
     inputArray[0] = "-in";
     inputArray[1] = "toh-8.txt";
     inputArray[2] = "-view";
@@ -65,6 +68,7 @@ public class SVGViewTest {
     inputArray[4] = "-out";
     inputArray[5] = "toh-at-20.svg";
     inputArray[6] = "-speed";
+    inputArray[7] = "20";
     // Create the output
     Excellence.main(inputArray);
     // Compare with the expected output

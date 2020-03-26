@@ -29,7 +29,7 @@ public class AnimationReader {
    * @param readable The source of data for the animation
    * @param builder  A builder for helping to construct a new animation
    * @param <Doc>    The cs3500.animator.main model interface type describing animations
-   * @return <Doc> The model built from the file.
+   * @return {@code <Doc>} The model built from the file.
    */
   public static <Doc> Doc parseFile(Readable readable, AnimationBuilder<Doc> builder) {
     Objects.requireNonNull(readable, "Must have non-null readable source");
@@ -82,16 +82,12 @@ public class AnimationReader {
   }
 
   private static <Doc> void readMotion(Scanner s, AnimationBuilder<Doc> builder) {
-    String[] fieldNames = new String[]{
-            "initial time",
-            "initial x-coordinate", "initial y-coordinate",
-            "initial width", "initial height",
-            "initial red value", "initial green value", "initial blue value",
-            "final time",
-            "final x-coordinate", "final y-coordinate",
-            "final width", "final height",
-            "final red value", "final green value", "final blue value",
-    };
+    String[] fieldNames = new String[]{"initial time", "initial x-coordinate",
+            "initial y-coordinate", "initial width", "initial height",
+            "initial red value", "initial green value",
+            "initial blue value", "final time", "final x-coordinate",
+            "final y-coordinate", "final width", "final height",
+            "final red value", "final green value", "final blue value"};
     int[] vals = new int[16];
     String name;
     if (s.hasNext()) {

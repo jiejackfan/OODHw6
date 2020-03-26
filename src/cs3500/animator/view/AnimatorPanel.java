@@ -13,15 +13,15 @@ import javax.swing.JPanel;
 /**
  * The swing panel class that will draw the animation stored in a ReadOnly model. This panel class
  * will take care of painting the animation of the current tick. It will call getAnimation() from
- * the model to get a List<Shape> where each shape has information of Color, Position, width, height
- * of itself at a particular tick.
+ * the model to get a {@code List<Shape>} where each shape has information of Color, Position,
+ * width, height of itself at a particular tick.
  */
 public class AnimatorPanel extends JPanel {
   private ReadOnlyModel m;
 
   /**
    * Public constructor used to initialize the panel. Gives the panel access to a model so it can
-   * display the List<Shape> currently stored in the model.
+   * display the {@code List<Shape>} currently stored in the model.
    *
    * @param m a read only model that has the animation.
    */
@@ -44,7 +44,7 @@ public class AnimatorPanel extends JPanel {
         g2.fillRect((int) shape.getPosition().getX(), (int) shape.getPosition().getY(),
                 (int) shape.getWidth(), (int) shape.getHeight());
       } else if (shape.getShape() == DifferentShapes.oval
-          || shape.getShape() == DifferentShapes.ellipse) {
+              || shape.getShape() == DifferentShapes.ellipse) {
         g2.setColor(shape.getColor());
         g2.fillOval((int) shape.getPosition().getX(), (int) shape.getPosition().getY(),
                 (int) shape.getWidth(), (int) shape.getHeight());

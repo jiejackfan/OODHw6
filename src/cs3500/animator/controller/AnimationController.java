@@ -24,7 +24,7 @@ public class AnimationController implements IController {
   Timer timer;
   int currentTick = 0;
 
-  public static int delay;
+  public static int DELAY;
 
   /**
    * This action listener will be used by the timer initialized in playAnimation(). The
@@ -60,18 +60,18 @@ public class AnimationController implements IController {
     // check instanceof
     if (v instanceof SwingView) {
       v.render();
-      timer = new Timer(delay, taskPerformer);
+      timer = new Timer(DELAY, taskPerformer);
       timer.setRepeats(true);
       timer.start();
     } else if (v instanceof TextView || v instanceof SVGView) {
-      v.setDelay(delay);
+      v.setDelay(DELAY);
       v.render();
     }
   }
 
   @Override
   public void setDelay(double tickPerSecond) {
-    delay = (int) (1000 / tickPerSecond); // convert to ms per tick
+    DELAY = (int) (1000 / tickPerSecond); // convert to ms per tick
   }
 
 }

@@ -10,6 +10,9 @@ import static org.junit.Assert.assertTrue;
 
 import org.apache.commons.io.FileUtils;
 
+/**
+ * The test class for the text view. Tests include taking in text files with different contents.
+ */
 public class TextViewTest {
 
   @Test

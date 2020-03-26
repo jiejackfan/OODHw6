@@ -1,7 +1,5 @@
 package cs3500.animator.model;
 
-import java.util.List;
-
 /**
  * The model interface that contains functions that can mutate the model. This Animation model
  * interface can create a shape, remove a shape, add motions to a shape, remove motions, and

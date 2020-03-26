@@ -4,11 +4,11 @@ import java.awt.Color;
 import java.util.Objects;
 
 /**
- * A class implementation of a Shape in our animation. A Shape will have 2 uses.
- * 1. One use is for building the "animation" hash map. The hashmap will use a shape as the Key.
- * 2. Second use for a Shape is a List<Shape> will get passed to the view for the view to build an
- *  animation. Therefore, each shape will store all parameters (color, pos, width, height, shape,
- *  name) of a shape at a particular tick.
+ * A class implementation of a Shape in our animation. A Shape will have 2 uses. 1. One use is for
+ * building the "animation" hash map. The hashmap will use a shape as the Key. 2. Second use for a
+ * Shape is a {@code List<Shape>} will get passed to the view for the view to build an animation.
+ * Therefore, each shape will store all parameters (color, pos, width, height, shape, name) of a
+ * shape at a particular tick.
  */
 public class Shape implements IShape {
 

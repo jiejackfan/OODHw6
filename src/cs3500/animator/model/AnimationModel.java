@@ -1,6 +1,7 @@
 package cs3500.animator.model;
 
 import cs3500.animator.util.AnimationBuilder;
+
 import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -10,8 +11,8 @@ import java.util.Map;
 
 /**
  * The animation model implementation. It will implement all methods declared in IModel and
- *  ReadOnlyModel. This model will be the main storage of the animation. It will store shapes and
- *  each shape's List<Motions> in a LinkedHashMap.
+ * ReadOnlyModel. This model will be the main storage of the animation. It will store shapes and
+ * each shape's {@code List<Motions>} in a LinkedHashMap.
  */
 public class AnimationModel implements IModel {
 
@@ -221,39 +222,39 @@ public class AnimationModel implements IModel {
     //if the time has passed the ending time
     if (time > tmpMotion.getEndTime() && time <= getMaxTick()) {
       return new Shape(tmpMotion.getEndColor(), tmpMotion.getEndPosition(), tmpMotion.getEndWidth(),
-          tmpMotion.getEndHeight(), name, DifferentShapes.valueOf(shape.toLowerCase()));
+              tmpMotion.getEndHeight(), name, DifferentShapes.valueOf(shape.toLowerCase()));
     }
     //if starttime the time given
     else if (time == tmpMotion.getStartTime()) {
       return new Shape(tmpMotion.getStartColor(), tmpMotion.getStartPosition(),
-          tmpMotion.getStartWidth(), tmpMotion.getStartHeight(), name,
-          DifferentShapes.valueOf(shape.toLowerCase()));
+              tmpMotion.getStartWidth(), tmpMotion.getStartHeight(), name,
+              DifferentShapes.valueOf(shape.toLowerCase()));
     }
     //else if the time has not passed ending time
     else {
       double ratio = (double) (time - tmpMotion.getStartTime())
-          / (tmpMotion.getEndTime() - tmpMotion.getStartTime());
+              / (tmpMotion.getEndTime() - tmpMotion.getStartTime());
       Color color = new Color(
-          (int) (ratio * (tmpMotion.getEndColor().getRed() - tmpMotion.getStartColor().getRed())
-              + tmpMotion.getStartColor().getRed()),
-          (int) (ratio * (tmpMotion.getEndColor().getGreen()
-              - tmpMotion.getStartColor().getGreen())
-              + tmpMotion.getStartColor().getGreen()),
-          (int) (ratio * (tmpMotion.getEndColor().getBlue()
-              - tmpMotion.getStartColor().getBlue())
-              + tmpMotion.getStartColor().getBlue()));
+              (int) (ratio * (tmpMotion.getEndColor().getRed() - tmpMotion.getStartColor().getRed())
+                      + tmpMotion.getStartColor().getRed()),
+              (int) (ratio * (tmpMotion.getEndColor().getGreen()
+                      - tmpMotion.getStartColor().getGreen())
+                      + tmpMotion.getStartColor().getGreen()),
+              (int) (ratio * (tmpMotion.getEndColor().getBlue()
+                      - tmpMotion.getStartColor().getBlue())
+                      + tmpMotion.getStartColor().getBlue()));
       Position2D position = new Position2D(
-          ratio * (tmpMotion.getEndPosition().getX() - tmpMotion.getStartPosition().getX())
-              + tmpMotion.getStartPosition().getX(),
-          ratio * (tmpMotion.getEndPosition().getY() - tmpMotion.getStartPosition().getY())
-              + tmpMotion.getStartPosition().getY());
+              ratio * (tmpMotion.getEndPosition().getX() - tmpMotion.getStartPosition().getX())
+                      + tmpMotion.getStartPosition().getX(),
+              ratio * (tmpMotion.getEndPosition().getY() - tmpMotion.getStartPosition().getY())
+                      + tmpMotion.getStartPosition().getY());
       double width = ratio * (tmpMotion.getEndWidth() - tmpMotion.getStartWidth())
-          + tmpMotion.getStartWidth();
+              + tmpMotion.getStartWidth();
       double height = ratio * (tmpMotion.getEndHeight() - tmpMotion.getStartHeight())
-          + tmpMotion.getStartHeight();
+              + tmpMotion.getStartHeight();
 
       return new Shape(color, position, width, height, name,
-          DifferentShapes.valueOf(shape.toLowerCase()));
+              DifferentShapes.valueOf(shape.toLowerCase()));
     }
   }
 
@@ -303,14 +304,14 @@ public class AnimationModel implements IModel {
   @Override
   public int getMaxTick() {
     int tmpMax = 0;
-    int EndTime = 0;
+    int endTime = 0;
     for (Map.Entry<IShape, List<Motion>> entry : animation.entrySet()) {
       //direct mutation of the list of motion to sort them in order.
       List<Motion> listOfMotion = entry.getValue();
       listOfMotion.sort(new SortByStartTime());
-      EndTime = listOfMotion.get(listOfMotion.size() - 1).getEndTime();
-      if (EndTime > tmpMax) {
-        tmpMax = EndTime;
+      endTime = listOfMotion.get(listOfMotion.size() - 1).getEndTime();
+      if (endTime > tmpMax) {
+        tmpMax = endTime;
       }
     }
 
@@ -334,7 +335,7 @@ public class AnimationModel implements IModel {
 
       if (!checkValidAnimation(entry.getValue())) {
         throw new IllegalStateException("There is teleportation or overlap in this shape, this "
-            + "shape will be deleted.");
+                + "shape will be deleted.");
       }
     }
   }
@@ -438,7 +439,7 @@ public class AnimationModel implements IModel {
       if (x < 0) {
         x = 0;
       }
-      if( y < 0) {
+      if (y < 0) {
         y = 0;
       }
       m.setCanvas(x, y, width, height);
@@ -453,14 +454,15 @@ public class AnimationModel implements IModel {
 
     @Override
     public AnimationBuilder<IModel> addMotion(String name, int t1, int x1, int y1, int w1, int h1,
-        int r1, int g1, int b1, int t2, int x2, int y2, int w2, int h2, int r2, int g2, int b2) {
+                                              int r1, int g1, int b1, int t2, int x2, int y2,
+                                              int w2, int h2, int r2, int g2, int b2) {
       m.addMotion(name, t1, x1, y1, w1, h1, r1, g1, b1, t2, x2, y2, w2, h2, r2, g2, b2);
       return this;
     }
 
     @Override
     public AnimationBuilder<IModel> addKeyframe(String name, int t, int x, int y, int w, int h,
-        int r, int g, int b) {
+                                                int r, int g, int b) {
       throw new UnsupportedOperationException("");
     }
   }

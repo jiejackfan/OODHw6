@@ -16,16 +16,23 @@ import java.nio.file.Paths;
 
 /**
  * Main function of this animator that will be converted into the .jar file. Accpets different
- *  arguments like input file, speed, output file name, and view type to run an animation.
+ * arguments like input file, speed, output file name, and view type to run an animation.
  */
 public class ExcellenceCLI {
+  /**
+   * The main method that executes the program.
+   *
+   * @param args the input arguments
+   */
   public static void main(String[] args) {
     double tickPerSecond = 1;
     String inputFileName = "";
     String outputFileName = "System.out";
     String viewType = "";
 
-    int i = 0, j;
+    int i = 0;
+    int j = 0;
+
     String arg;
 
     while (i < args.length) {
@@ -48,6 +55,8 @@ public class ExcellenceCLI {
           arg = args[++i];
           tickPerSecond = Double.parseDouble(arg);
           break;
+        default:
+          throw new IllegalArgumentException("Invalid argument.");
       }
       i++;
     }

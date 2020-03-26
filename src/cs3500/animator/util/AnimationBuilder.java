@@ -1,5 +1,9 @@
 package cs3500.animator.util;
 
+/**
+ * This is an interface that helps to connect the animation reader and the model, which will take
+ * the parameters from the input file and trigger the according actions in the model.
+ */
 public interface AnimationBuilder<Doc> {
   /**
    * Constructs a final document.

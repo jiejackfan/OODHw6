@@ -26,6 +26,11 @@ import org.apache.commons.cli.ParseException;
  * Main class that is out of date. Will use ExcellenceCLI insteaed.
  */
 public final class Excellence {
+  /**
+   * The main method that executes the program.
+   *
+   * @param args the input arguments
+   */
   public static void main(String[] args) {
 
     Options options = new Options();
