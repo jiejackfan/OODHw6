@@ -128,7 +128,7 @@ public class SVGView implements IView {
       double startTime = m.getStartTime() * delay;
       double duration = (m.getEndTime() - m.getStartTime()) * delay;
       if (m.getStartPosition().getX() != m.getEndPosition().getX()) {
-        String x = s.getShape().equals("rectangle") ? "x" : "cx";
+        String x = s.getShape().equals("rectangle") ? "cx" : "x";
         svgContent += String.format("\t\t<animate attributeType=\"xml\" "
                         + "begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
@@ -136,21 +136,21 @@ public class SVGView implements IView {
                 m.getEndPosition().getX());
       }
       if (m.getStartPosition().getY() != m.getEndPosition().getY()) {
-        String y = s.getShape().equals("rectangle") ? "y" : "cy";
+        String y = s.getShape().equals("rectangle") ? "cy" : "y";
         svgContent += String.format("\t\t<animate attributeType=\"xml\" "
                         + "begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, y, m.getStartPosition().getY(), m.getEndPosition().getY());
       }
       if (m.getStartWidth() != m.getEndWidth()) {
-        String w = s.getShape().equals("rectangle") ? "width" : "rx";
+        String w = s.getShape().equals("rectangle") ? "rx" : "width";
         svgContent += String.format("\t\t<animate attributeType=\"xml\" "
                         + "begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, w, m.getStartWidth(), m.getEndWidth());
       }
       if (m.getStartHeight() != m.getEndHeight()) {
-        String h = s.getShape().equals("rectangle") ? "height" : "ry";
+        String h = s.getShape().equals("rectangle") ? "ry" : "height";
         svgContent += String.format("\t\t<animate attributeType=\"xml\" "
                         + "begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",

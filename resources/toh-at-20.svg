@@ -1,1572 +1,1572 @@
 <svg viewBox="145 50 410 199" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <rect id="disk1" x="190.000" y="161.000" width="20.000" height="11.000" fill="rgb(113,87,151)"
           visibility="visible">
-        <animate attributeType="xml" begin="25000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="1250.000ms" dur="500.000ms" attributeName="y"
                  from="161.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="36000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="1800.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="47000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="2350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="89000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="4450.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="100000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="5000.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="111000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="5550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="153000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="7650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="164000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="8200.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="175000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="8750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="217000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="10850.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="228000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="11400.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="239000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="11950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="281000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="14050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="292000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="14600.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="303000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="15150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="345000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="17250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="356000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="17800.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="367000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="18350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="409000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="20450.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="420000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="21000.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="431000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="21550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="473000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="23650.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="484000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="24200.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="495000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="24750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="537000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="26850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="548000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="27400.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="559000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="27950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="601000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="30050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="612000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="30600.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="623000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="31150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="665000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="33250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="676000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="33800.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="687000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="34350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="729000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="36450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="740000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="37000.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="751000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="37550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="793000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="39650.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="804000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="40200.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="815000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="40750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="857000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="42850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="868000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="43400.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="879000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="43950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="921000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="46050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="932000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="46600.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="943000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="47150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="985000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="49250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="996000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="49800.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1007000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="50350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1049000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="52450.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1060000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="53000.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1071000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="53550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1113000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="55650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1124000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="56200.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1135000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="56750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1177000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="58850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1188000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="59400.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1199000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="59950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1241000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="62050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1252000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="62600.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1263000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="63150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1305000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="65250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1316000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="65800.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1327000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="66350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1369000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="68450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1380000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="69000.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1391000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="69550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1433000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="71650.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1444000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="72200.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1455000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="72750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1497000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="74850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1508000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="75400.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1519000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="75950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1561000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="78050.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1572000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="78600.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1583000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="79150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1625000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="81250.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1636000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="81800.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1647000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="82350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1689000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="84450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1700000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="85000.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1711000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="85550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1753000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="87650.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1764000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="88200.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1775000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="88750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1817000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="90850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1828000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="91400.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1839000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="91950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1881000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="94050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1892000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="94600.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1903000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="95150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1945000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="97250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1956000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="97800.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1967000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="98350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2009000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="100450.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2020000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="101000.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2031000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="101550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2073000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="103650.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2084000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="104200.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2095000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="104750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2137000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="106850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2148000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="107400.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2159000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="107950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2201000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="110050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2212000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="110600.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2223000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="111150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2265000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="113250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2276000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="113800.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2287000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="114350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2329000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="116450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2340000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="117000.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2351000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="117550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2393000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="119650.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2404000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="120200.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2415000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="120750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2457000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="122850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2468000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="123400.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2479000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="123950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2521000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="126050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2532000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="126600.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2543000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="127150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2585000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="129250.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2596000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="129800.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2607000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="130350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2649000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="132450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2660000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="133000.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2671000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="133550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2713000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="135650.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2724000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="136200.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2735000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="136750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2777000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="138850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2788000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="139400.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2799000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="139950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2841000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="142050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2852000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="142600.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2863000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="143150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2905000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="145250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2916000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="145800.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2927000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="146350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2969000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="148450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2980000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="149000.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2991000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="149550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3033000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="151650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3044000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="152200.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3055000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="152750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3097000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="154850.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3108000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="155400.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3119000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="155950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3161000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="158050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3172000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="158600.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3183000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="159150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3225000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="161250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3236000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="161800.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3247000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="162350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3289000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="164450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3300000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="165000.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3311000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="165550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3353000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="167650.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3364000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="168200.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3375000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="168750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3417000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="170850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3428000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="171400.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3439000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="171950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3481000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="174050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3492000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="174600.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3503000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="175150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3545000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="177250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3556000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="177800.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3567000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="178350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3609000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="180450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3620000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="181000.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3631000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="181550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3673000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="183650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3684000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="184200.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3695000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="184750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3737000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="186850.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3748000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="187400.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3759000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="187950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3801000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="190050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3812000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="190600.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3823000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="191150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3865000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="193250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3876000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="193800.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3887000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="194350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3929000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="196450.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3940000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="197000.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3951000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="197550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3993000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="199650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4004000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="200200.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4015000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="200750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4057000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="202850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4068000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="203400.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4079000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="203950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="172.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4121000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="206050.000ms" dur="500.000ms" attributeName="y"
                  from="172.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4132000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="206600.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4143000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="207150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4185000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="209250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4196000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="209800.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4207000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="210350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4249000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="212450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4260000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="213000.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4271000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="213550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4313000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="215650.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4324000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="216200.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4335000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="216750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4377000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="218850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4388000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="219400.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4399000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="219950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4441000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="222050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4452000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="222600.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4463000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="223150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4505000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="225250.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4516000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="225800.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4527000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="226350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4569000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="228450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4580000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="229000.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4591000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="229550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4633000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="231650.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4644000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="232200.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4655000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="232750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4697000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="234850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4708000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="235400.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4719000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="235950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4761000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="238050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4772000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="238600.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4783000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="239150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4825000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="241250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4836000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="241800.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4847000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="242350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4889000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="244450.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4900000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="245000.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4911000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="245550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4953000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="247650.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4964000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="248200.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4975000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="248750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5017000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="250850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5028000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="251400.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5039000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="251950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5081000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="254050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5092000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="254600.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5103000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="255150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5145000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="257250.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5156000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="257800.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5167000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="258350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5209000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="260450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5220000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="261000.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5231000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="261550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5273000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="263650.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5284000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="264200.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5295000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="264750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5337000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="266850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5348000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="267400.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5359000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="267950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5401000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="270050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5412000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="270600.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5423000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="271150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5465000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="273250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5476000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="273800.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5487000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="274350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5529000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="276450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5540000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="277000.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5551000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="277550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5593000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="279650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5604000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="280200.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5615000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="280750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5657000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="282850.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5668000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="283400.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5679000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="283950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5721000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="286050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5732000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="286600.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5743000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="287150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5785000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="289250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5796000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="289800.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5807000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="290350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5849000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="292450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5860000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="293000.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5871000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="293550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5913000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="295650.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5924000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="296200.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5935000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="296750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5977000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="298850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5988000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="299400.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5999000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="299950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6041000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="302050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6052000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="302600.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6063000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="303150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6105000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="305250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6116000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="305800.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6127000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="306350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6169000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="308450.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6180000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="309000.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6191000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="309550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6233000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="311650.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6244000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="312200.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6255000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="312750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6297000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="314850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6308000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="315400.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6319000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="315950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6361000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="318050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6372000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="318600.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6383000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="319150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6425000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="321250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6436000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="321800.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6447000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="322350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6489000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="324450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6500000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="325000.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6511000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="325550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6553000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="327650.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6564000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="328200.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6575000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="328750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6617000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="330850.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6628000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="331400.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6639000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="331950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6681000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="334050.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6692000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="334600.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6703000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="335150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6745000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="337250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6756000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="337800.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6767000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="338350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6809000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="340450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6820000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="341000.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6831000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="341550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6873000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="343650.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6884000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="344200.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6895000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="344750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6937000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="346850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6948000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="347400.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6959000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="347950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7001000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="350050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7012000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="350600.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7023000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="351150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7065000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="353250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7076000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="353800.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7087000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="354350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7129000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="356450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7140000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="357000.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7151000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="357550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7193000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="359650.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7204000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="360200.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7215000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="360750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7257000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="362850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7268000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="363400.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7279000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="363950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7321000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="366050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7332000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="366600.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7343000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="367150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7385000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="369250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7396000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="369800.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7407000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="370350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7449000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="372450.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7460000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="373000.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7471000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="373550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7513000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="375650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7524000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="376200.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7535000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="376750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7577000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="378850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7588000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="379400.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7599000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="379950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7641000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="382050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7652000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="382600.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7663000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="383150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7705000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="385250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7716000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="385800.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7727000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="386350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7769000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="388450.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7780000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="389000.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7791000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="389550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7833000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="391650.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7844000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="392200.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7855000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="392750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7897000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="394850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7908000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="395400.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7919000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="395950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7961000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="398050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7972000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="398600.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7983000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="399150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8025000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="401250.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8036000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="401800.000ms" dur="500.000ms" attributeName="x"
                  from="490.000" to="190.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8047000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="402350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8089000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="404450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8100000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="405000.000ms" dur="500.000ms" attributeName="x"
                  from="190.000" to="340.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8111000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="405550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8153000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="407650.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8164000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="408200.000ms" dur="500.000ms" attributeName="x"
                  from="340.000" to="490.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8175000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="408750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="161.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8185000.000ms" dur="8000.000ms" attributeName="fill"
+        <animate attributeType="xml" begin="409250.000ms" dur="400.000ms" attributeName="fill"
                  from="rgb(113,87,151)" to="rgb(0,255,0)" fill="freeze"/>
     </rect>
     <rect id="disk2" x="183.000" y="172.000" width="32.000" height="11.000" fill="rgb(35,173,73)"
           visibility="visible">
-        <animate attributeType="xml" begin="57000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="2850.000ms" dur="500.000ms" attributeName="y"
                  from="172.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="68000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="3400.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="79000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="3950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="185000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="9250.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="196000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="9800.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="207000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="10350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="313000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="15650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="324000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="16200.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="335000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="16750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="441000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="22050.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="452000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="22600.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="463000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="23150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="569000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="28450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="580000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="29000.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="591000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="29550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="697000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="34850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="708000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="35400.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="719000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="35950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="825000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="41250.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="836000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="41800.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="847000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="42350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="953000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="47650.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="964000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="48200.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="975000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="48750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1081000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="54050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1092000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="54600.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1103000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="55150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1209000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="60450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1220000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="61000.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1231000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="61550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1337000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="66850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1348000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="67400.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1359000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="67950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1465000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="73250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1476000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="73800.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1487000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="74350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1593000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="79650.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1604000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="80200.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1615000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="80750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1721000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="86050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1732000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="86600.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1743000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="87150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1849000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="92450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1860000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="93000.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1871000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="93550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1977000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="98850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1988000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="99400.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1999000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="99950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2105000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="105250.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2116000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="105800.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2127000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="106350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2233000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="111650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2244000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="112200.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2255000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="112750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2361000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="118050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2372000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="118600.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2383000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="119150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2489000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="124450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2500000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="125000.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2511000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="125550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2617000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="130850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2628000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="131400.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2639000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="131950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2745000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="137250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2756000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="137800.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2767000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="138350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2873000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="143650.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2884000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="144200.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2895000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="144750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3001000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="150050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3012000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="150600.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3023000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="151150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3129000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="156450.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3140000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="157000.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3151000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="157550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3257000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="162850.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3268000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="163400.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3279000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="163950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3385000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="169250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3396000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="169800.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3407000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="170350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3513000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="175650.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3524000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="176200.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3535000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="176750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3641000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="182050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3652000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="182600.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3663000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="183150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3769000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="188450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3780000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="189000.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3791000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="189550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3897000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="194850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3908000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="195400.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3919000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="195950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4025000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="201250.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4036000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="201800.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4047000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="202350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4153000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="207650.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4164000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="208200.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4175000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="208750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4281000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="214050.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4292000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="214600.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4303000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="215150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4409000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="220450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4420000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="221000.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4431000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="221550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4537000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="226850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4548000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="227400.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4559000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="227950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4665000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="233250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4676000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="233800.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4687000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="234350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4793000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="239650.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4804000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="240200.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4815000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="240750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4921000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="246050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4932000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="246600.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4943000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="247150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5049000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="252450.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5060000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="253000.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5071000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="253550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5177000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="258850.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5188000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="259400.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5199000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="259950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5305000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="265250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5316000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="265800.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5327000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="266350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5433000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="271650.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5444000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="272200.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5455000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="272750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5561000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="278050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5572000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="278600.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5583000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="279150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5689000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="284450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5700000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="285000.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5711000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="285550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5817000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="290850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5828000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="291400.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5839000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="291950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5945000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="297250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5956000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="297800.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5967000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="298350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6073000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="303650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6084000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="304200.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6095000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="304750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6201000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="310050.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6212000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="310600.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6223000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="311150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6329000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="316450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6340000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="317000.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6351000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="317550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6457000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="322850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6468000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="323400.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6479000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="323950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6585000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="329250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6596000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="329800.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6607000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="330350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6713000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="335650.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6724000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="336200.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6735000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="336750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6841000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="342050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6852000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="342600.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6863000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="343150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6969000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="348450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6980000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="349000.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6991000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="349550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7097000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="354850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7108000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="355400.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7119000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="355950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7225000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="361250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7236000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="361800.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7247000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="362350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7353000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="367650.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7364000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="368200.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7375000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="368750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7481000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="374050.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7492000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="374600.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7503000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="375150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7609000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="380450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7620000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="381000.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7631000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="381550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7737000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="386850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7748000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="387400.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7759000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="387950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7865000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="393250.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7876000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="393800.000ms" dur="500.000ms" attributeName="x"
                  from="483.000" to="333.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7887000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="394350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7993000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="399650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8004000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="400200.000ms" dur="500.000ms" attributeName="x"
                  from="333.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8015000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="400750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8121000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="406050.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8132000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="406600.000ms" dur="500.000ms" attributeName="x"
                  from="183.000" to="483.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8143000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="407150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="172.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8153000.000ms" dur="8000.000ms" attributeName="fill"
+        <animate attributeType="xml" begin="407650.000ms" dur="400.000ms" attributeName="fill"
                  from="rgb(35,173,73)" to="rgb(0,255,0)" fill="freeze"/>
     </rect>
     <rect id="disk3" x="177.000" y="183.000" width="45.000" height="11.000" fill="rgb(9,67,130)"
           visibility="visible">
-        <animate attributeType="xml" begin="121000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="6050.000ms" dur="500.000ms" attributeName="y"
                  from="183.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="132000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="6600.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="143000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="7150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="377000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="18850.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="388000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="19400.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="399000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="19950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="633000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="31650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="644000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="32200.000ms" dur="500.000ms" attributeName="x"
                  from="477.000" to="177.000" fill="freeze"/>
-        <animate attributeType="xml" begin="655000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="32750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="889000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="44450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="900000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="45000.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="911000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="45550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1145000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="57250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1156000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="57800.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1167000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="58350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1401000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="70050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1412000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="70600.000ms" dur="500.000ms" attributeName="x"
                  from="477.000" to="177.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1423000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="71150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1657000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="82850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1668000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="83400.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1679000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="83950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1913000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="95650.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1924000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="96200.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1935000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="96750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2169000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="108450.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2180000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="109000.000ms" dur="500.000ms" attributeName="x"
                  from="477.000" to="177.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2191000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="109550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2425000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="121250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2436000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="121800.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2447000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="122350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2681000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="134050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2692000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="134600.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2703000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="135150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2937000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="146850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2948000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="147400.000ms" dur="500.000ms" attributeName="x"
                  from="477.000" to="177.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2959000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="147950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3193000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="159650.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3204000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="160200.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3215000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="160750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3449000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="172450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3460000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="173000.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3471000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="173550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3705000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="185250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3716000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="185800.000ms" dur="500.000ms" attributeName="x"
                  from="477.000" to="177.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3727000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="186350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3961000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="198050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3972000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="198600.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3983000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="199150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4217000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="210850.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4228000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="211400.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4239000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="211950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4473000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="223650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4484000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="224200.000ms" dur="500.000ms" attributeName="x"
                  from="477.000" to="177.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4495000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="224750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4729000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="236450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4740000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="237000.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4751000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="237550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4985000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="249250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4996000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="249800.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5007000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="250350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5241000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="262050.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5252000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="262600.000ms" dur="500.000ms" attributeName="x"
                  from="477.000" to="177.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5263000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="263150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5497000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="274850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5508000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="275400.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5519000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="275950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5753000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="287650.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5764000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="288200.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5775000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="288750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6009000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="300450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6020000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="301000.000ms" dur="500.000ms" attributeName="x"
                  from="477.000" to="177.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6031000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="301550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6265000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="313250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6276000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="313800.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6287000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="314350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6521000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="326050.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6532000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="326600.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6543000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="327150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6777000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="338850.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6788000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="339400.000ms" dur="500.000ms" attributeName="x"
                  from="477.000" to="177.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6799000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="339950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7033000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="351650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7044000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="352200.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7055000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="352750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7289000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="364450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7300000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="365000.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7311000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="365550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7545000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="377250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7556000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="377800.000ms" dur="500.000ms" attributeName="x"
                  from="477.000" to="177.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7567000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="378350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7801000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="390050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7812000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="390600.000ms" dur="500.000ms" attributeName="x"
                  from="177.000" to="327.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7823000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="391150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8057000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="402850.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8068000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="403400.000ms" dur="500.000ms" attributeName="x"
                  from="327.000" to="477.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8079000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="403950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="183.000" fill="freeze"/>
-        <animate attributeType="xml" begin="8089000.000ms" dur="8000.000ms" attributeName="fill"
+        <animate attributeType="xml" begin="404450.000ms" dur="400.000ms" attributeName="fill"
                  from="rgb(9,67,130)" to="rgb(0,255,0)" fill="freeze"/>
     </rect>
     <rect id="disk4" x="170.000" y="194.000" width="58.000" height="11.000" fill="rgb(96,198,208)"
           visibility="visible">
-        <animate attributeType="xml" begin="249000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="12450.000ms" dur="500.000ms" attributeName="y"
                  from="194.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="260000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="13000.000ms" dur="500.000ms" attributeName="x"
                  from="170.000" to="470.000" fill="freeze"/>
-        <animate attributeType="xml" begin="271000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="13550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="761000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="38050.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="772000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="38600.000ms" dur="500.000ms" attributeName="x"
                  from="470.000" to="320.000" fill="freeze"/>
-        <animate attributeType="xml" begin="783000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="39150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1273000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="63650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1284000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="64200.000ms" dur="500.000ms" attributeName="x"
                  from="320.000" to="170.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1295000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="64750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1785000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="89250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1796000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="89800.000ms" dur="500.000ms" attributeName="x"
                  from="170.000" to="470.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1807000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="90350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2297000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="114850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2308000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="115400.000ms" dur="500.000ms" attributeName="x"
                  from="470.000" to="320.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2319000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="115950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2809000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="140450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2820000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="141000.000ms" dur="500.000ms" attributeName="x"
                  from="320.000" to="170.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2831000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="141550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3321000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="166050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3332000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="166600.000ms" dur="500.000ms" attributeName="x"
                  from="170.000" to="470.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3343000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="167150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3833000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="191650.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3844000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="192200.000ms" dur="500.000ms" attributeName="x"
                  from="470.000" to="320.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3855000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="192750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4345000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="217250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4356000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="217800.000ms" dur="500.000ms" attributeName="x"
                  from="320.000" to="170.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4367000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="218350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4857000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="242850.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4868000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="243400.000ms" dur="500.000ms" attributeName="x"
                  from="170.000" to="470.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4879000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="243950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5369000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="268450.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5380000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="269000.000ms" dur="500.000ms" attributeName="x"
                  from="470.000" to="320.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5391000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="269550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5881000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="294050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5892000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="294600.000ms" dur="500.000ms" attributeName="x"
                  from="320.000" to="170.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5903000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="295150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6393000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="319650.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6404000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="320200.000ms" dur="500.000ms" attributeName="x"
                  from="170.000" to="470.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6415000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="320750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6905000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="345250.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6916000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="345800.000ms" dur="500.000ms" attributeName="x"
                  from="470.000" to="320.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6927000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="346350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7417000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="370850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7428000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="371400.000ms" dur="500.000ms" attributeName="x"
                  from="320.000" to="170.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7439000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="371950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7929000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="396450.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7940000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="397000.000ms" dur="500.000ms" attributeName="x"
                  from="170.000" to="470.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7951000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="397550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="194.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7961000.000ms" dur="8000.000ms" attributeName="fill"
+        <animate attributeType="xml" begin="398050.000ms" dur="400.000ms" attributeName="fill"
                  from="rgb(96,198,208)" to="rgb(0,255,0)" fill="freeze"/>
     </rect>
     <rect id="disk5" x="164.000" y="205.000" width="71.000" height="11.000" fill="rgb(136,3,187)"
           visibility="visible">
-        <animate attributeType="xml" begin="505000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="25250.000ms" dur="500.000ms" attributeName="y"
                  from="205.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="516000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="25800.000ms" dur="500.000ms" attributeName="x"
                  from="164.000" to="314.000" fill="freeze"/>
-        <animate attributeType="xml" begin="527000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="26350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1529000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="76450.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1540000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="77000.000ms" dur="500.000ms" attributeName="x"
                  from="314.000" to="464.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1551000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="77550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2553000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="127650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2564000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="128200.000ms" dur="500.000ms" attributeName="x"
                  from="464.000" to="164.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2575000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="128750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3577000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="178850.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3588000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="179400.000ms" dur="500.000ms" attributeName="x"
                  from="164.000" to="314.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3599000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="179950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4601000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="230050.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4612000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="230600.000ms" dur="500.000ms" attributeName="x"
                  from="314.000" to="464.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4623000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="231150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5625000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="281250.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5636000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="281800.000ms" dur="500.000ms" attributeName="x"
                  from="464.000" to="164.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5647000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="282350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6649000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="332450.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6660000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="333000.000ms" dur="500.000ms" attributeName="x"
                  from="164.000" to="314.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6671000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="333550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7673000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="383650.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7684000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="384200.000ms" dur="500.000ms" attributeName="x"
                  from="314.000" to="464.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7695000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="384750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="205.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7705000.000ms" dur="8000.000ms" attributeName="fill"
+        <animate attributeType="xml" begin="385250.000ms" dur="400.000ms" attributeName="fill"
                  from="rgb(136,3,187)" to="rgb(0,255,0)" fill="freeze"/>
     </rect>
     <rect id="disk6" x="157.000" y="216.000" width="84.000" height="11.000" fill="rgb(53,8,157)"
           visibility="visible">
-        <animate attributeType="xml" begin="1017000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="50850.000ms" dur="500.000ms" attributeName="y"
                  from="216.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1028000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="51400.000ms" dur="500.000ms" attributeName="x"
                  from="157.000" to="457.000" fill="freeze"/>
-        <animate attributeType="xml" begin="1039000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="51950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3065000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="153250.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3076000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="153800.000ms" dur="500.000ms" attributeName="x"
                  from="457.000" to="307.000" fill="freeze"/>
-        <animate attributeType="xml" begin="3087000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="154350.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5113000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="255650.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5124000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="256200.000ms" dur="500.000ms" attributeName="x"
                  from="307.000" to="157.000" fill="freeze"/>
-        <animate attributeType="xml" begin="5135000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="256750.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7161000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="358050.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7172000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="358600.000ms" dur="500.000ms" attributeName="x"
                  from="157.000" to="457.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7183000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="359150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="216.000" fill="freeze"/>
-        <animate attributeType="xml" begin="7193000.000ms" dur="8000.000ms" attributeName="fill"
+        <animate attributeType="xml" begin="359650.000ms" dur="400.000ms" attributeName="fill"
                  from="rgb(53,8,157)" to="rgb(0,255,0)" fill="freeze"/>
     </rect>
     <rect id="disk7" x="151.000" y="227.000" width="97.000" height="11.000" fill="rgb(165,115,94)"
           visibility="visible">
-        <animate attributeType="xml" begin="2041000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="102050.000ms" dur="500.000ms" attributeName="y"
                  from="227.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2052000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="102600.000ms" dur="500.000ms" attributeName="x"
                  from="151.000" to="301.000" fill="freeze"/>
-        <animate attributeType="xml" begin="2063000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="103150.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6137000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="306850.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6148000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="307400.000ms" dur="500.000ms" attributeName="x"
                  from="301.000" to="451.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6159000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="307950.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="227.000" fill="freeze"/>
-        <animate attributeType="xml" begin="6169000.000ms" dur="8000.000ms" attributeName="fill"
+        <animate attributeType="xml" begin="308450.000ms" dur="400.000ms" attributeName="fill"
                  from="rgb(165,115,94)" to="rgb(0,255,0)" fill="freeze"/>
     </rect>
     <rect id="disk8" x="145.000" y="238.000" width="110.000" height="11.000" fill="rgb(153,156,239)"
           visibility="visible">
-        <animate attributeType="xml" begin="4089000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="204450.000ms" dur="500.000ms" attributeName="y"
                  from="238.000" to="50.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4100000.000ms" dur="10000.000ms" attributeName="cx"
+        <animate attributeType="xml" begin="205000.000ms" dur="500.000ms" attributeName="x"
                  from="145.000" to="445.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4111000.000ms" dur="10000.000ms" attributeName="cy"
+        <animate attributeType="xml" begin="205550.000ms" dur="500.000ms" attributeName="y"
                  from="50.000" to="238.000" fill="freeze"/>
-        <animate attributeType="xml" begin="4121000.000ms" dur="8000.000ms" attributeName="fill"
+        <animate attributeType="xml" begin="206050.000ms" dur="400.000ms" attributeName="fill"
                  from="rgb(153,156,239)" to="rgb(0,255,0)" fill="freeze"/>
     </rect>
 </svg>

@@ -1,0 +1,501 @@
+<svg viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <rect id="background" x="0.000" y="0.000" width="800.000" height="800.000" fill="rgb(33,94,248)"
+          visibility="visible">
+        <animate attributeType="xml" begin="500.000ms" dur="400.000ms" attributeName="fill"
+                 from="rgb(33,94,248)" to="rgb(16,45,248)" fill="freeze"/>
+    </rect>
+    <rect id="B0" x="80.000" y="424.000" width="100.000" height="326.000" fill="rgb(0,0,0)"
+          visibility="visible">
+    </rect>
+    <rect id="B1" x="260.000" y="365.000" width="100.000" height="385.000" fill="rgb(0,0,0)"
+          visibility="visible">
+    </rect>
+    <rect id="B2" x="440.000" y="375.000" width="100.000" height="375.000" fill="rgb(0,0,0)"
+          visibility="visible">
+    </rect>
+    <rect id="B3" x="620.000" y="445.000" width="100.000" height="305.000" fill="rgb(0,0,0)"
+          visibility="visible">
+    </rect>
+    <rect id="window000" x="100.000" y="850.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="850.000" to="710.000" fill="freeze"/>
+    </rect>
+    <rect id="window001" x="140.000" y="850.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="850.000" to="710.000" fill="freeze"/>
+    </rect>
+    <rect id="window010" x="100.000" y="890.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="890.000" to="670.000" fill="freeze"/>
+    </rect>
+    <rect id="window011" x="140.000" y="890.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="890.000" to="670.000" fill="freeze"/>
+    </rect>
+    <rect id="window020" x="100.000" y="930.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="930.000" to="630.000" fill="freeze"/>
+    </rect>
+    <rect id="window021" x="140.000" y="930.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="930.000" to="630.000" fill="freeze"/>
+        <animate attributeType="xml" begin="820.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window030" x="100.000" y="970.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="970.000" to="590.000" fill="freeze"/>
+    </rect>
+    <rect id="window031" x="140.000" y="970.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="970.000" to="590.000" fill="freeze"/>
+    </rect>
+    <rect id="window040" x="100.000" y="1010.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1010.000" to="550.000" fill="freeze"/>
+    </rect>
+    <rect id="window041" x="140.000" y="1010.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1010.000" to="550.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1470.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window050" x="100.000" y="1050.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1050.000" to="510.000" fill="freeze"/>
+    </rect>
+    <rect id="window051" x="140.000" y="1050.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1050.000" to="510.000" fill="freeze"/>
+    </rect>
+    <rect id="window060" x="100.000" y="1090.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1090.000" to="470.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1470.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window061" x="140.000" y="1090.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1090.000" to="470.000" fill="freeze"/>
+        <animate attributeType="xml" begin="930.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window100" x="280.000" y="-750.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-750.000" to="710.000" fill="freeze"/>
+    </rect>
+    <rect id="window101" x="320.000" y="-750.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-750.000" to="710.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1080.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window110" x="280.000" y="-710.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-710.000" to="670.000" fill="freeze"/>
+        <animate attributeType="xml" begin="950.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window111" x="320.000" y="-710.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-710.000" to="670.000" fill="freeze"/>
+    </rect>
+    <rect id="window120" x="280.000" y="-670.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-670.000" to="630.000" fill="freeze"/>
+    </rect>
+    <rect id="window121" x="320.000" y="-670.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-670.000" to="630.000" fill="freeze"/>
+    </rect>
+    <rect id="window130" x="280.000" y="-630.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-630.000" to="590.000" fill="freeze"/>
+    </rect>
+    <rect id="window131" x="320.000" y="-630.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-630.000" to="590.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1480.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window140" x="280.000" y="-590.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-590.000" to="550.000" fill="freeze"/>
+    </rect>
+    <rect id="window141" x="320.000" y="-590.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-590.000" to="550.000" fill="freeze"/>
+    </rect>
+    <rect id="window150" x="280.000" y="-550.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-550.000" to="510.000" fill="freeze"/>
+    </rect>
+    <rect id="window151" x="320.000" y="-550.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-550.000" to="510.000" fill="freeze"/>
+        <animate attributeType="xml" begin="990.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window160" x="280.000" y="-510.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-510.000" to="470.000" fill="freeze"/>
+    </rect>
+    <rect id="window161" x="320.000" y="-510.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-510.000" to="470.000" fill="freeze"/>
+    </rect>
+    <rect id="window170" x="280.000" y="-470.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-470.000" to="430.000" fill="freeze"/>
+    </rect>
+    <rect id="window171" x="320.000" y="-470.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-470.000" to="430.000" fill="freeze"/>
+    </rect>
+    <rect id="window180" x="280.000" y="-430.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-430.000" to="390.000" fill="freeze"/>
+    </rect>
+    <rect id="window181" x="320.000" y="-430.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-430.000" to="390.000" fill="freeze"/>
+    </rect>
+    <rect id="window200" x="460.000" y="850.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="850.000" to="710.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1270.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window201" x="500.000" y="850.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="850.000" to="710.000" fill="freeze"/>
+    </rect>
+    <rect id="window210" x="460.000" y="890.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="890.000" to="670.000" fill="freeze"/>
+        <animate attributeType="xml" begin="830.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window211" x="500.000" y="890.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="890.000" to="670.000" fill="freeze"/>
+    </rect>
+    <rect id="window220" x="460.000" y="930.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="930.000" to="630.000" fill="freeze"/>
+    </rect>
+    <rect id="window221" x="500.000" y="930.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="930.000" to="630.000" fill="freeze"/>
+    </rect>
+    <rect id="window230" x="460.000" y="970.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="970.000" to="590.000" fill="freeze"/>
+    </rect>
+    <rect id="window231" x="500.000" y="970.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="970.000" to="590.000" fill="freeze"/>
+    </rect>
+    <rect id="window240" x="460.000" y="1010.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1010.000" to="550.000" fill="freeze"/>
+    </rect>
+    <rect id="window241" x="500.000" y="1010.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1010.000" to="550.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1120.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window250" x="460.000" y="1050.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1050.000" to="510.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1280.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window251" x="500.000" y="1050.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1050.000" to="510.000" fill="freeze"/>
+    </rect>
+    <rect id="window260" x="460.000" y="1090.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1090.000" to="470.000" fill="freeze"/>
+    </rect>
+    <rect id="window261" x="500.000" y="1090.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1090.000" to="470.000" fill="freeze"/>
+        <animate attributeType="xml" begin="960.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window270" x="460.000" y="1130.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1130.000" to="430.000" fill="freeze"/>
+    </rect>
+    <rect id="window271" x="500.000" y="1130.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="1130.000" to="430.000" fill="freeze"/>
+    </rect>
+    <rect id="window300" x="640.000" y="-750.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-750.000" to="710.000" fill="freeze"/>
+    </rect>
+    <rect id="window301" x="680.000" y="-750.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-750.000" to="710.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1350.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window310" x="640.000" y="-710.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-710.000" to="670.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1030.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window311" x="680.000" y="-710.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-710.000" to="670.000" fill="freeze"/>
+    </rect>
+    <rect id="window320" x="640.000" y="-670.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-670.000" to="630.000" fill="freeze"/>
+    </rect>
+    <rect id="window321" x="680.000" y="-670.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-670.000" to="630.000" fill="freeze"/>
+    </rect>
+    <rect id="window330" x="640.000" y="-630.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-630.000" to="590.000" fill="freeze"/>
+        <animate attributeType="xml" begin="810.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window331" x="680.000" y="-630.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-630.000" to="590.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1190.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window340" x="640.000" y="-590.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-590.000" to="550.000" fill="freeze"/>
+    </rect>
+    <rect id="window341" x="680.000" y="-590.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-590.000" to="550.000" fill="freeze"/>
+    </rect>
+    <rect id="window350" x="640.000" y="-550.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-550.000" to="510.000" fill="freeze"/>
+    </rect>
+    <rect id="window351" x="680.000" y="-550.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-550.000" to="510.000" fill="freeze"/>
+        <animate attributeType="xml" begin="1000.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window360" x="640.000" y="-510.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-510.000" to="470.000" fill="freeze"/>
+        <animate attributeType="xml" begin="990.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="window361" x="680.000" y="-510.000" width="20.000" height="20.000"
+          fill="rgb(255,255,255)" visibility="visible">
+        <animate attributeType="xml" begin="200.000ms" dur="400.000ms" attributeName="cy"
+                 from="-510.000" to="470.000" fill="freeze"/>
+        <animate attributeType="xml" begin="990.000ms" dur="50.000ms" attributeName="fill"
+                 from="rgb(255,255,255)" to="rgb(255,255,0)" fill="freeze"/>
+    </rect>
+    <ellipse id="moon" cx="200.000" cy="200.000" rx="100.000" ry="100.000" fill="rgb(229,229,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="eclipse" cx="400.000" cy="0.000" rx="100.000" ry="100.000" fill="rgb(33,94,248)"
+             visibility="visible">
+        <animate attributeType="xml" begin="500.000ms" dur="400.000ms" attributeName="cx"
+                 from="400.000" to="230.000" fill="freeze"/>
+        <animate attributeType="xml" begin="500.000ms" dur="400.000ms" attributeName="cy"
+                 from="0.000" to="180.000" fill="freeze"/>
+        <animate attributeType="xml" begin="500.000ms" dur="400.000ms" attributeName="fill"
+                 from="rgb(33,94,248)" to="rgb(16,45,248)" fill="freeze"/>
+    </ellipse>
+    <ellipse id="star0" cx="223.000" cy="66.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star1" cx="585.000" cy="211.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star2" cx="489.000" cy="77.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star3" cx="374.000" cy="286.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star4" cx="708.000" cy="281.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star5" cx="508.000" cy="260.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star6" cx="529.000" cy="70.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star7" cx="332.000" cy="65.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star8" cx="311.000" cy="147.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star9" cx="170.000" cy="281.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star10" cx="719.000" cy="102.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star11" cx="524.000" cy="264.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star12" cx="768.000" cy="194.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star13" cx="766.000" cy="179.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star14" cx="510.000" cy="78.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star15" cx="621.000" cy="149.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star16" cx="491.000" cy="252.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star17" cx="405.000" cy="63.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star18" cx="550.000" cy="267.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star19" cx="108.000" cy="197.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star20" cx="737.000" cy="78.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star21" cx="795.000" cy="137.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star22" cx="184.000" cy="125.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star23" cx="134.000" cy="230.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star24" cx="244.000" cy="153.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star25" cx="259.000" cy="119.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star26" cx="322.000" cy="269.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star27" cx="412.000" cy="182.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star28" cx="674.000" cy="137.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star29" cx="46.000" cy="246.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star30" cx="388.000" cy="315.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star31" cx="185.000" cy="236.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star32" cx="550.000" cy="232.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star33" cx="656.000" cy="101.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star34" cx="283.000" cy="111.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star35" cx="649.000" cy="326.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star36" cx="691.000" cy="267.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star37" cx="113.000" cy="276.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star38" cx="604.000" cy="302.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+    <ellipse id="star39" cx="462.000" cy="162.000" rx="6.000" ry="6.000" fill="rgb(255,255,255)"
+             visibility="visible">
+    </ellipse>
+</svg>

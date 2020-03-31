@@ -1,0 +1,59 @@
+<svg viewBox="145 50 410 220" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <rect id="disk1" x="190.000" y="180.000" width="20.000" height="30.000" fill="rgb(0,49,90)"
+          visibility="visible">
+        <animate attributeName="cy" attributeType="xml" begin="250.000ms" dur="100.000ms"
+                 from="180.000" to="50.000" fill="freeze"/>
+        <animate attributeName="cx" attributeType="xml" begin="360.000ms" dur="100.000ms"
+                 from="190.000" to="490.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="470.000ms" dur="100.000ms"
+                 from="50.000" to="240.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="890.000ms" dur="100.000ms"
+                 from="240.000" to="50.000" fill="freeze"/>
+        <animate attributeName="cx" attributeType="xml" begin="1000.000ms" dur="100.000ms"
+                 from="490.000" to="340.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="1110.000ms" dur="100.000ms"
+                 from="50.000" to="210.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="1530.000ms" dur="100.000ms"
+                 from="210.000" to="50.000" fill="freeze"/>
+        <animate attributeName="cx" attributeType="xml" begin="1640.000ms" dur="100.000ms"
+                 from="340.000" to="190.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="1750.000ms" dur="100.000ms"
+                 from="50.000" to="240.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="2170.000ms" dur="100.000ms"
+                 from="240.000" to="50.000" fill="freeze"/>
+        <animate attributeName="cx" attributeType="xml" begin="2280.000ms" dur="100.000ms"
+                 from="190.000" to="490.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="2390.000ms" dur="100.000ms"
+                 from="50.000" to="180.000" fill="freeze"/>
+        <animate attributeName="fill" attributeType="xml" begin="2490.000ms" dur="80.000ms"
+                 from="rgb(0,49,90)" to="rgb(0,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="disk2" x="167.000" y="210.000" width="65.000" height="30.000" fill="rgb(6,247,41)"
+          visibility="visible">
+        <animate attributeName="cy" attributeType="xml" begin="570.000ms" dur="100.000ms"
+                 from="210.000" to="50.000" fill="freeze"/>
+        <animate attributeName="cx" attributeType="xml" begin="680.000ms" dur="100.000ms"
+                 from="167.000" to="317.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="790.000ms" dur="100.000ms"
+                 from="50.000" to="240.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="1850.000ms" dur="100.000ms"
+                 from="240.000" to="50.000" fill="freeze"/>
+        <animate attributeName="cx" attributeType="xml" begin="1960.000ms" dur="100.000ms"
+                 from="317.000" to="467.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="2070.000ms" dur="100.000ms"
+                 from="50.000" to="210.000" fill="freeze"/>
+        <animate attributeName="fill" attributeType="xml" begin="2170.000ms" dur="80.000ms"
+                 from="rgb(6,247,41)" to="rgb(0,255,0)" fill="freeze"/>
+    </rect>
+    <rect id="disk3" x="145.000" y="240.000" width="110.000" height="30.000" fill="rgb(11,45,175)"
+          visibility="visible">
+        <animate attributeName="cy" attributeType="xml" begin="1210.000ms" dur="100.000ms"
+                 from="240.000" to="50.000" fill="freeze"/>
+        <animate attributeName="cx" attributeType="xml" begin="1320.000ms" dur="100.000ms"
+                 from="145.000" to="445.000" fill="freeze"/>
+        <animate attributeName="cy" attributeType="xml" begin="1430.000ms" dur="100.000ms"
+                 from="50.000" to="240.000" fill="freeze"/>
+        <animate attributeName="fill" attributeType="xml" begin="1530.000ms" dur="80.000ms"
+                 from="rgb(11,45,175)" to="rgb(0,255,0)" fill="freeze"/>
+    </rect>
+</svg>
