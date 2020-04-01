@@ -1,12 +1,10 @@
-import org.apache.commons.io.FileUtils;
-import org.junit.Test;
-
-import java.io.File;
-import java.io.IOException;
+import static org.junit.Assert.assertTrue;
 
 import cs3500.animator.Excellence;
-
-import static org.junit.Assert.assertTrue;
+import java.io.File;
+import java.io.IOException;
+import org.apache.commons.io.FileUtils;
+import org.junit.Test;
 
 /**
  * The test class for the svg view. Tests include taking in text files with different contents.
@@ -69,7 +67,7 @@ public class SVGViewTest {
     inputArray[5] = "toh-at-20.svg";
     inputArray[6] = "-speed";
     inputArray[7] = "20";
-    // Create the output
+    // Create the output 
     Excellence.main(inputArray);
     // Compare with the expected output
     File createdFile = new File(inputArray[5]);

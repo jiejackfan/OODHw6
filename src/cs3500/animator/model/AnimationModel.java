@@ -23,10 +23,14 @@ public class AnimationModel implements IModel {
   private final Map<String, IShape> nameMap;
 
   /**
-   * This final hash map structure will store the entire animation. key: shape. value: the shape's
-   * list of motions.
+   * This final hash map structure will store the entire animation.
+   *  key: a shape.
+   *  value: that key shape's list of motions.
    */
   private final Map<IShape, List<Motion>> animation;
+
+
+  private int maxTick;
 
   private int canvasX;
   private int canvasY;
@@ -192,7 +196,8 @@ public class AnimationModel implements IModel {
 
 
   /**
-   * Helper for getAnimation(). Checks the list of motion to see if the given time exist.
+   * Helper for getAnimation(). Checks the list of motion to see if the given time exist within
+   *  the time range of that list of motion.
    *
    * @param listOfMotion of a shape provided by the user.
    * @param time         that user wants to validate that exist.
@@ -203,7 +208,26 @@ public class AnimationModel implements IModel {
     //int endTime = listOfMotion.get(listOfMotion.size() - 1).getEndTime();
 
     //return (time >= startTime && time <= endTime);
-    return (time >= startTime && time <= getMaxTick());
+    return (time >= startTime && time <= maxTick);
+  }
+
+  /**
+   * Find and return a copyt of the motion that has the given time in a list of motions.
+   *
+   * @param listOfMotion we want to find the motion in.
+   * @param time         the time of the motion we want to find.
+   * @return the motion that contains the time.
+   */
+  private Motion findMotion(List<Motion> listOfMotion, int time) {
+    for (Motion tmpMotion : listOfMotion) {
+      int startTime = tmpMotion.getStartTime();
+      int endTime = tmpMotion.getEndTime();
+
+      if (time >= startTime && time <= endTime) {
+        return new Motion(tmpMotion);
+      }
+    }
+    return new Motion(listOfMotion.get(listOfMotion.size() - 1));
   }
 
 
@@ -258,24 +282,6 @@ public class AnimationModel implements IModel {
     }
   }
 
-  /**
-   * Find and return the motion that has the given time in a list of motions.
-   *
-   * @param listOfMotion we want to find the motion in.
-   * @param time         the time of the motion we want to find.
-   * @return the motion that contains the time.
-   */
-  private Motion findMotion(List<Motion> listOfMotion, int time) {
-    for (Motion tmpMotion : listOfMotion) {
-      int startTime = tmpMotion.getStartTime();
-      int endTime = tmpMotion.getEndTime();
-
-      if (time >= startTime && time <= endTime) {
-        return new Motion(tmpMotion);
-      }
-    }
-    return new Motion(listOfMotion.get(listOfMotion.size() - 1));
-  }
 
   @Override
   public void removeMotion(String name, int index) {
@@ -304,17 +310,16 @@ public class AnimationModel implements IModel {
   @Override
   public int getMaxTick() {
     int tmpMax = 0;
-    int endTime = 0;
+    int endTime;
     for (Map.Entry<IShape, List<Motion>> entry : animation.entrySet()) {
       //direct mutation of the list of motion to sort them in order.
       List<Motion> listOfMotion = entry.getValue();
-      listOfMotion.sort(new SortByStartTime());
+      //listOfMotion.sort(new SortByStartTime());
       endTime = listOfMotion.get(listOfMotion.size() - 1).getEndTime();
       if (endTime > tmpMax) {
         tmpMax = endTime;
       }
     }
-
     return tmpMax;
   }
 
@@ -338,6 +343,8 @@ public class AnimationModel implements IModel {
                 + "shape will be deleted.");
       }
     }
+
+    this.maxTick = getMaxTick();
   }
 
   /**
