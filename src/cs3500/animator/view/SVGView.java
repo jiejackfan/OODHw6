@@ -73,7 +73,7 @@ public class SVGView implements IView {
           switch (s.getShape()) {
             case rectangle:
               svgContent += String.format("\t<rect id=\"%s\" x=\"%.3f\" y=\"%.3f\" width=\"%.3f\" "
-                              + "height=\"%.3f\" fill=\"rgb(%d,%d,%d)\" visibility=\"visible\">\n",
+                              + "height=\"%.3f\" fill=\"rgb(%d,%d,%d)\" visibility=\"hidden\">\n",
                       initialShapes.get(counter).getName(),
                       initialShapes.get(counter).getPosition().getX(),
                       initialShapes.get(counter).getPosition().getY(),
@@ -88,7 +88,7 @@ public class SVGView implements IView {
             case oval:
               svgContent += String.format("\t<ellipse id=\"%s\" cx=\"%.3f\" "
                               + "cy=\"%.3f\" rx=\"%.3f\" "
-                              + "ry=\"%.3f\" fill=\"rgb(%d,%d,%d)\" visibility=\"visible\">\n",
+                              + "ry=\"%.3f\" fill=\"rgb(%d,%d,%d)\" visibility=\"hidden\">\n",
                       initialShapes.get(counter).getName(),
                       initialShapes.get(counter).getPosition().getX(),
                       initialShapes.get(counter).getPosition().getY(),
@@ -128,6 +128,13 @@ public class SVGView implements IView {
     for (Motion m : allMotions) {
       double startTime = m.getStartTime() * delay;
       double duration = (m.getEndTime() - m.getStartTime()) * delay;
+
+      //if the animation is about to start
+      if (m.getStartTime() == m.getEndTime()) {
+        svgContent += String.format("\t\t<set attributeName=\"visibility\" attributeType=\"CS\" "
+            + "to=\"visible\" begin=\"%.3fms\" dur=\"0.000ms\" fill=\"freeze\" />", startTime);
+      }
+
       if (m.getStartPosition().getX() != m.getEndPosition().getX()) {
         String x = (s.getShape() != DifferentShapes.rectangle) ? "cx" : "x";
         svgContent += String.format("\t\t<animate attributeType=\"xml\" "
@@ -144,14 +151,14 @@ public class SVGView implements IView {
                 startTime, duration, y, m.getStartPosition().getY(), m.getEndPosition().getY());
       }
       if (m.getStartWidth() != m.getEndWidth()) {
-        String w = s.getShape() != DifferentShapes.rectangle ? "rx" : "width";
+        String w = (s.getShape() != DifferentShapes.rectangle) ? "rx" : "width";
         svgContent += String.format("\t\t<animate attributeType=\"xml\" "
                         + "begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
                 startTime, duration, w, m.getStartWidth(), m.getEndWidth());
       }
       if (m.getStartHeight() != m.getEndHeight()) {
-        String h = s.getShape() != DifferentShapes.rectangle ? "ry" : "height";
+        String h = (s.getShape() != DifferentShapes.rectangle) ? "ry" : "height";
         svgContent += String.format("\t\t<animate attributeType=\"xml\" "
                         + "begin=\"%.3fms\" dur=\"%.3fms\" "
                         + "attributeName=\"%s\" from=\"%.3f\" to=\"%.3f\" fill=\"freeze\"/>\n",
